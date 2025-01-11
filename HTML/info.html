@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krees - Info</title>
+    <meta name="description" content="Krees">
+    <meta name="keywords" content="Krees, Automotriz, Ferreteria, Piezas de Autos">
+    <meta name="author" content="Manuel Del Rio Socorro">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS/estilos_universales.css">
+    <link rel="stylesheet" href="../CSS/estilos_info.css">
+</head>
+<body>
+    <!-- Contenedor Principal del Sitio -->
+    <div class="contenedor_principal">
+        <!-- Header -->
+        <header class="header">
+            <nav class="header__nav">
+                <div class="nav__div_N_B">
+                    <div class="nav__nombre_paguina">
+                        <h3>K<span class="nav__nombre_paguina__span_1">rees<span class="nav__nombre_paguina__span_2">SRL</span></span></h3>
+                    </div>
+                    <ul class="nav__ul_responcive">
+                        <li class="ul__li"><a href="../index.html">Inicio</a></li>
+                        <li class="ul__li"><a href="tienda.html">Tienda</a></li>
+                        <li class="ul__li"><a href="contacto.html">Contacto</a></li>
+                        <li class="ul__li"><a href="info.html">Info</a></li>
+                    </ul>
+                    <form action="" class="nav__cont_buscador" autocomplete="off">
+                        <input type="text" placeholder="Buscar..." id="input_busqueda" onclick="redirirgir()">
+                        <input type="submit" value="" id="boton_buscar" onclick="redirirgir()">
+                    </form>
+                </div>
+                <ul class="nav__ul">
+                    <li class="ul__li"><a href="../index.html">Inicio</a></li>
+                    <li class="ul__li"><a href="tienda.html">Tienda</a></li>
+                    <li class="ul__li"><a href="contacto.html">Contacto</a></li>
+                    <li class="ul__li"><a href="info.html">Info</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Main -->
+        <main class="main">
+            <!-- Seccion 1 -->
+            <section class="seccion_1">
+                <div class="seccion_1__foto">
+                    <br>
+                    <img src="../IMG/Diseño/Fondo/fondo_acerca_de_krees_1.jpg" alt="Foto de Krees">
+                </div>
+                <br>
+                <div class="seccion_1__info">
+                    <div class="seccion_1__info__borrador">
+                        <p>La <span class="seccion_1__info__span">Sociedad Mercantil Krees S.R.L </span>es una pequeña empreza familiar, privada e independiente creada en la ciudad de holguín en febrero de 2022.</p>
+                        <br>
+                    </div>
+                </div>
+            </section>
+            <!-- Seccion 2 -->
+            <section class="seccion_2">
+                <br>
+                <div class="seccion_2__zona_A">
+                    <p>NOS DEDICAMOS A:</p>
+                </div>
+                <div class="seccion_2__zona_B">
+                    <br>
+                    <p><span class="seccion_2__zona_B__span">-</span>Fabricar y comercializar articulos de ferretería, mangueras hidráulicas, conexiones y válvulas.</p>
+                    <p><span class="seccion_2__zona_B__span">-</span>Prestar servicios de mantenimiento y reparación automotriz, ponchera y suminitro de aire comprimido.</p>
+                    <p><span class="seccion_2__zona_B__span">-</span>Alquilar equipos de construcción, manipulación de carga, andamios y otros implementos de la construcción.</p>
+                    <p><span class="seccion_2__zona_B__span">-</span>Comercializar partes, piezas y accesorios para vehículos automotores y motocicletas.</p>
+                    <p><span class="seccion_2__zona_B__span">-</span>Comercializar materiales de la construcción, artículos de ferretería y equipos, materiales de fontanería y calefacción, así como pinturas y productos de vidrio.</p>
+                    <br><br>
+                    <p>Radicamos en:</p>
+                    <p>Calle: Carlos Hidalgo No.53, entre 6 y 8 reparto Alcides Pino.</p>
+                    <p>Ciudad de Holguín</p>
+                    <p>Teléfono: 24441003</p>
+                    <p>Móvil: +53 63409791</p>
+                    <p>Correo: krees3433@gmail.com</p>
+                    <br><br>
+                </div>
+            </section>
+            <section class="seccion_3">
+                <fieldset>
+                    <legend>Preguntas Frecuentes</legend>
+                        <details>
+                            <summary>Hacen envíos a domicilio?</summary>
+                            Claro! Enviamos a cualquier parte del pais.
+                        </details>
+                        <details>
+                            <summary>Tienen garantía los productos?</summary>
+                            Si todos los productos tienen una garantia de bla bla bla bla y bla
+                        </details>
+                        <details>
+                            <summary>Cómo puedo pagar mis compras?</summary>
+                            Aceptamos pagos en bla bla bla
+                        </details>
+                </fieldset>
+            </section>
+        </main>
+    </div>
+    <!-- Codigo Java Script -->
+    <script>
+        function redirirgir(){
+            event.preventDefault();
+            window.location.href = "tienda.html"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krees - Inicio</title>
+    <meta name="description" content="Krees">
+    <meta name="keywords" content="Krees, Automotriz, Ferreteria, Piezas de Autos">
+    <meta name="author" content="Manuel Del Rio Socorro">
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/estilos_universales.css">
+    <link rel="stylesheet" href="CSS/estilos_index.css">
+</head>
+<body>
+    <!-- Contenedor Principal del Sitio -->
+    <div class="contenedor_principal">
+        <!-- Header -->
+        <header class="header">
+            <nav class="header__nav">
+                <div class="nav__div_N_B">
+                    <div class="nav__nombre_paguina">
+                        <h3>K<span class="nav__nombre_paguina__span_1">rees<span class="nav__nombre_paguina__span_2">SRL</span></span></h3>
+                    </div>
+                    <ul class="nav__ul_responcive">
+                        <li class="ul__li"><a href="index.html">Inicio</a></li>
+                        <li class="ul__li"><a href="HTML/tienda.html">Tienda</a></li>
+                        <li class="ul__li"><a href="HTML/contacto.html">Contacto</a></li>
+                        <li class="ul__li"><a href="HTML/info.html">Info</a></li>
+                    </ul>
+                    <form action="" class="nav__cont_buscador" autocomplete="off">
+                        <input type="text" placeholder="Buscar..." id="input_busqueda" onclick="redirirgir()">
+                        <input type="submit" value="" id="boton_buscar" onclick="redirirgir()">
+                    </form>
+                </div>
+                <ul class="nav__ul">
+                    <li class="ul__li"><a href="index.html">Inicio</a></li>
+                    <li class="ul__li"><a href="HTML/tienda.html">Tienda</a></li>
+                    <li class="ul__li"><a href="HTML/contacto.html">Contacto</a></li>
+                    <li class="ul__li"><a href="HTML/info.html">Info</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Main -->
+        <main class="main">
+            <div class="mensaje_seguridad">
+                <div class="mensaje_seguridad__contenedor">
+                    <div class="seguridad_img_1"></div>
+                    <p>Envios Seguros </p>
+                    <div class="seguridad_img_2"></div>
+                    <p> Sitio Protegido </p>
+                    <div class="seguridad_img_3"></div>
+                    <p> Compras 100% Seguras</p>
+                </div>
+            </div>
+            <div class="contenedor_nuevos_productos">
+                <div class="info_nuevos_productos">
+                    <div class="info__caja1"></div>
+                    <p>Nuevas Ofertas Disponibles</p>
+                    <div class="info__caja2"></div>
+                </div>
+                <hr>
+                <div id="contenedor_resultados">
+
+                </div>
+            </div>
+            
+        </main>
+    </div>
+    <!-- Codigo Java Script -->
+    <script src="JS/codigo_index.js"></script>
+</body>
+</html>

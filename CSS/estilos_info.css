@@ -1,0 +1,168 @@
+/* Cambio de Fondo en la seccion Info */
+
+.contenedor_principal {
+    background-color: rgb(27, 30, 54);
+    background-image: url(../IMG/Diseño/Fondo/fondo_de_pantalla_krees_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+/* Seccion 1 */
+
+.seccion_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+    border-top: 12px solid rgb(242, 129, 40);
+    border-bottom: 12px solid rgb(242, 129, 40);
+}
+
+.seccion_1__foto {
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    user-select: none;
+}
+
+.seccion_1__info {
+    background-image: url(../IMG/Diseño/Fondo/fondo_acerca_de_krees_2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90%;
+    user-select: none;
+}
+
+.seccion_1__info__borrador {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.76);
+    user-select: none;
+}
+
+.seccion_1__info__borrador p{
+    font-size: 1.8em;
+    color: rgb(27, 30, 54);
+    user-select: none;
+}
+
+.seccion_1__info__span {
+    font-size: 1em;
+    color: rgb(242, 129, 40);
+}
+
+/* Seccion 2 */
+
+.seccion_2 {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.781);
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion_2__zona_A {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.seccion_2__zona_A p {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin: auto;
+    color: rgb(255, 255, 255);
+}
+
+.seccion_2__zona_B {
+    width: 96%;
+    margin: auto;
+}
+
+.seccion_2__zona_B p{
+    font-size: 1.4em;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(22, 22, 22);
+}
+
+.seccion_2__zona_B__span {
+    color: rgb(242, 129, 40);
+    font-size: 1.4em;
+}
+
+/* Seccion 3 */
+
+.seccion_3 {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.781);
+    display: flex;
+    justify-content: center;
+}
+
+.seccion_3 fieldset {
+    width: 92%;
+    border-radius: 8px;
+
+}
+
+.seccion_3 fieldset legend {
+    user-select: none;
+    font-size: 1.6em;
+    font-weight: 700;
+    color: rgb(242, 249, 255);
+    padding: 10px;
+    margin-left: 20px;
+}
+
+details {
+    user-select: none;
+    color: rgb(255, 255, 255);
+    margin: 12px 0;
+    margin-left: 6px;
+    font-size: 1.1em;
+}
+
+summary {
+    user-select: none;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: rgb(242, 129, 40);
+}
+
+
+@media (min-width: 800px) {
+    .seccion_1__info {
+        width: 60%;
+    }
+
+    .seccion_1__foto {
+        width: 50%;
+    }
+
+    .seccion_1__info__borrador p{
+        font-size: 2.2em;
+    }
+
+    .seccion_2__zona_A p {
+        font-size: 2em;
+    }    
+
+    .seccion_2__zona_B p{
+        font-size: 1.6em;
+    }
+
+    .seccion_3 fieldset legend {
+        font-size: 2em;
+    }
+
+    details {
+        font-size: 1.3em;
+    }
+
+    summary {
+        font-size: 1.1em;
+    }
+}
