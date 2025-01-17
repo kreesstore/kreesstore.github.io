@@ -25,7 +25,9 @@ body {
 
 .contenedor_principal {
     width: 100%;
+    height: 100vh;
     min-height: 100vh;
+    overflow: hidden;
     
     background-image: url(../IMG/Diseño/Fondo/fondo_de_pantalla_krees_1.jpg);
     background-repeat: no-repeat;
@@ -200,6 +202,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 /* Adaptacion a mas de 340px*/
