@@ -19,7 +19,7 @@ class Producto {
 // Lista de Ultimos Productos Agregados //
 let productosTotales = [
 
-    new Producto(1, "Bateria 12V 110AH", "210.00$", "83 351.62$", "No Registrada", "baterias", 0, "IMG/Productos/Alt/bateria.jpg"),
+    new Producto(1, "Bateria 12V 75AH", "145.00$", "57 384.40$", "No Registrada", "baterias", 0, "IMG/Productos/Automotriz/bateria/75AH.jpg"),
     
     new Producto(1002, "Correa", "$", "3 537.57$", "L2-20", "correas", 0, "IMG/Productos/Alt/correa.jpg"),
 
