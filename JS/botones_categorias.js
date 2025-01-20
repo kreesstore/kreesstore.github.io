@@ -63,11 +63,11 @@ let productosTotales = [
     // ------------------------------------------------------------------------------------------------ //
 
     // Baterías
-    //new Producto(1, "Bateria 12V 200AH", "330.00$", "131 769.10$", "No Registrada", "baterias", 0, "../IMG/Productos/Alt/bateria.jpg"),
-    new Producto(1, "Bateria 12V 155AH", "285.00$", "113 138.35$", "No Registrada", "baterias", 0, "../IMG/Productos/Automotriz/bateria/155AH.jpg"),
-    //new Producto(1, "Bateria 12V 115AH", "240.00$", "93 063.46$", "No Registrada", "baterias", 0, "../IMG/Productos/Alt/bateria.jpg"),
-    //new Producto(1, "Bateria 12V 110AH", "210.00$", "83 351.62$", "No Registrada", "baterias", 0, "../IMG/Productos/Alt/bateria.jpg"),
-    new Producto(1, "Bateria 12V 75AH", "145.00$", "57 384.40$", "No Registrada", "baterias", 0, "../IMG/Productos/Automotriz/bateria/75AH.jpg"),
+    //new Producto(1, "Bateria 12V 200AH", "330.00$", "131 769.10$", "Cobelak", "baterias", 0, "../IMG/Productos/Alt/bateria.jpg"),
+    new Producto(1, "Bateria 12V 155AH", "285.00$", "113 138.35$", "Cobelak", "baterias", 0, "../IMG/Productos/Automotriz/bateria/155AH.jpg"),
+    //new Producto(1, "Bateria 12V 115AH", "240.00$", "93 063.46$", "Cobelak", "baterias", 0, "../IMG/Productos/Alt/bateria.jpg"),
+    //new Producto(1, "Bateria 12V 110AH", "210.00$", "83 351.62$", "Cobelak", "baterias", 0, "../IMG/Productos/Alt/bateria.jpg"),
+    new Producto(1, "Bateria 12V 75AH", "145.00$", "57 384.40$", "Cobelak", "baterias", 0, "../IMG/Productos/Automotriz/bateria/75AH.jpg"),
 
 
     // ------------------------------------------------------------------------------------------------ //
@@ -121,8 +121,8 @@ let productosTotales = [
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
 
-    // Frenos
-    new Producto(501, "Taco de Freno", "$", "5 077.34$", "TOYOTA HIACE", "frenos", 0),
+    // Frenos 
+    new Producto(501, "Taco de Freno", "$", "5 077.34$", "TOYOTA HIACE", "frenos", 0, "../IMG/Productos/Automotriz/freno/Lumii_20250115_114345681.jpg"),
     new Producto(502, "Banda de Freno de Emergencia", "67.58$", "8 110.00$", "No Registrado", "frenos", 0),
     new Producto(503, "Juego de Banda de Freno", "22.97$", "7 692.57$", "TRUCK", "frenos", 0),
 
@@ -146,11 +146,11 @@ let productosTotales = [
     // Juntas --- juntas
 
     
-    new Producto(701, "Tapa de BLOCK", "$", "3 733.98$", "4D-30", "juntas", 0),
-    new Producto(702, "Tapa de BLOCK", "$", "4 078.62$", "LD-20", "juntas", 0),
+    new Producto(701, "Tapa de BLOCK", "$", "3 733.98$", "4D-30", "juntas", 0, "../IMG/Productos/Automotriz/sello/juntaBlock4D.jpg"),
+    new Producto(702, "Tapa de BLOCK", "$", "4 078.62$", "LD-20", "juntas", 0, "../IMG/Productos/Automotriz/sello/juntaBlockLD20.jpg"),
     new Producto(703, "Junta de Inyectores", "0.64$", "175.37$", "No Registrado", "juntas", 0),
     
-    new Producto(706, "Sello de Aceite C/V", "3.99$", "1 096.09$", "No Registrado", "juntas", 0),
+    new Producto(706, "Sello de Aceite C/V", "3.99$", "1 096.09$", "No Registrado", "juntas", 0, "../IMG/Productos/Automotriz/sello/aceite.jpg"),
 
 
     // ------------------------------------------------------------------------------------------------ //
@@ -237,7 +237,9 @@ let productosTotales = [
 
     // Rodamiento --- rodamiento
 
-    new Producto(1501, "Rodamiento Trasero Conico", "20.83$", "5 727.57$", "No Registrado", "rodamiento", 2),
+    new Producto(1501, "Rodamiento Trasero Conico", "20.83$", "5 767.46$", "Union", "rodamiento", 2, "../IMG/Productos/Automotriz/rodamiento/azul.jpg"),
+    new Producto(1501, "Rodamiento Trasero Conico", "20.83$", "5 767.46$", "No Registrado", "rodamiento", 2, "../IMG/Productos/Automotriz/rodamiento/01.jpg"),
+
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -253,7 +255,6 @@ let productosTotales = [
 
     // Reten --- reten
 
-    new Producto(1601, "Reten", "35$", "9 402.03$", "Francia", "reten", 1),
     new Producto(1604, "Retente Aceite Ruedas Delanteras", "$", "243.13$", "No Registrado", "reten", 0, "../IMG/Productos/Automotriz/reten/delanteras.jpg"),
     new Producto(1605, "Retente de Aceite", "$", "358.72$", "No Registrado", "reten", 0, "../IMG/Productos/Automotriz/reten/reten.jpg"),
 
@@ -271,11 +272,11 @@ let productosTotales = [
 
     // Biela --- biela
 
-    new Producto(1801, "Metal Biela", "31.60$", "10 428.02$", 'MITSUBISHI STD 4D56(M"2D)', "biela", 0),
-    new Producto(1802, "Juego de Metal Apoyo", "$", "14 421.98$", 'No Registrada', "biela", 0),
-    new Producto(1803, "Juego de Metal Biela", "$", "3 979.80$", 'No Registrada', "biela", 0),
+    new Producto(1801, "Metal Biela", "31.60$", "10 428.02$", 'MITSUBISHI STD 4D56(M"2D)', "biela", 0, "../IMG/Productos/Automotriz/bielas/mitsu.jpg"),
+    new Producto(1802, "Juego de Metal Apoyo", "$", "4 421.98$", 'No Registrada', "biela", 0, "../IMG/Productos/Automotriz/bielas/C190.jpg"),
+    new Producto(1803, "JMetal de Biela C240 STD", "$", "3 979.80$", 'Glow Plug', "biela", 0, "../IMG/Productos/Automotriz/bielas/C240.jpg"),
 
-    new Producto(1804, "Metal de Bamcada", "$", "3 537.59$", 'NISSAN TD/27STD', "biela", 0),
+    new Producto(1804, "Metal de Bamcada", "$", "3 537.59$", 'NISSAN TD/27STD', "biela", 0, "../IMG/Productos/Automotriz/bielas/nissan.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -289,14 +290,19 @@ let productosTotales = [
 
     // Motor --- motor
 
-    new Producto(2001, "Motor", "1$", "0$", "No Registrado", "motor", 10, "../IMG/Productos/Automotriz/motores/nasaki.jpg"),
-    new Producto(2002, "Motor", "1$", "0$", "No Registrado", "motor", 10, "../IMG/Productos/Automotriz/motores/verde.jpg"),
-    new Producto(2003, "Motor", "1$", "0$", "No Registrado", "motor", 10, "../IMG/Productos/Automotriz/motores/bomba.jpg"),
+    new Producto(3001, "Motor de Arranque", "$", "105 053.94$", "No Registrado", "motor", 10, "../IMG/Productos/Automotriz/motores/nasaki.jpg"),
+    new Producto(3002, "Motor de Arranque", "1$", "144 402.39$", "No Registrado", "motor", 10, "../IMG/Productos/Automotriz/motores/verde.jpg"),
+    new Producto(3003, "Motor", "1$", "0$", "No Registrado", "motor", 10, "../IMG/Productos/Automotriz/motores/bomba.jpg"),
+
+    // Alternador -- alternador
+
+    new Producto(3012, "Alternador", "1$", "169 581.68$", "Toyota", "alternador", 10, "../IMG/Productos/Automotriz/alternador/verde.jpg"),
+
 
     // LIKS --- liks
 
-    new Producto(2011, "LIKS", "1$", "0$", "No Registrado", "liks", 10, "../IMG/Productos/Automotriz/liks/motorex.jpg"),
-    new Producto(2012, "LIKS", "1$", "0$", "No Registrado", "liks", 10, "../IMG/Productos/Automotriz/liks/toyosia.jpg"),
+    new Producto(3021, "LIKS", "1$", "266 646.18$", "Motrex", "liks", 10, "../IMG/Productos/Automotriz/liks/motorex.jpg"),
+    new Producto(3022, "LIKS", "1$", "204 495.32$", "Toyosisa", "liks", 10, "../IMG/Productos/Automotriz/liks/toyosia.jpg"),
 
 
 ];
@@ -327,8 +333,10 @@ function mostrarProductos(productos) {
         // Mostrar solo el nombre, la marca y el precio en la vista inicial
         cajaSecundaria.innerHTML = `<p><span class="producto_span">Nombre:</span> ${producto.nombre}</p>
                                      <p><span class="producto_span">Marca:</span> ${producto.marca}</p>
-                                      <p><span class="producto_span">CUP:</span> ${producto.precio_cup}</p>
-                                     <p><span class="producto_span">MLC:</span> ${producto.precio_mlc}</p>`;
+                                      <p><span class="producto_span">CUP:</span> ${producto.precio_cup}</p>`;
+                                    // Para agregar MLC
+                                    //  <p><span class="producto_span">MLC:</span> ${producto.precio_mlc}</p>
+                                    // Bajo CUP
         cajaContenedora.appendChild(cajaSecundaria)
 
 
@@ -363,11 +371,12 @@ function abrirProductoEmergente(producto) {
     let contenidoProducto = `
         <p><span class="producto_span">ID:</span> ${producto.id}</p>
         <p><span class="producto_span">Nombre:</span> ${producto.nombre}</p>
-        <p><span class="producto_span">Precio MLC:</span> ${producto.precio_mlc}</p>
         <p><span class="producto_span">Precio CUP:</span> ${producto.precio_cup}</p>
         <p><span class="producto_span">Marca:</span> ${producto.marca}</p>
         <p><span class="producto_span">Cantidad Disponible:</span> ${producto.cantidad}</p>`;
-
+        // Pra agregar MLC poner
+        //         <p><span class="producto_span">Precio MLC:</span> ${producto.precio_mlc}</p>
+        // Sobre CUP
     // Verificar si hay una imagen para mostrar
     if (producto.imagen) {
         contenidoProducto = `<img src="${producto.imagen}" alt="${producto.nombre}" class="imagen-producto">` + contenidoProducto;
@@ -509,6 +518,9 @@ document.getElementById('boton_manguera').addEventListener("click", () => {
 });
 document.getElementById('boton_motor').addEventListener("click", () => {
     filtrarPorCategoria("motor");
+});
+document.getElementById('boton_alternador').addEventListener("click", () => {
+    filtrarPorCategoria("alternador");
 });
 document.getElementById('boton_liks').addEventListener("click", () => {
     filtrarPorCategoria("liks");

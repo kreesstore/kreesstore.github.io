@@ -90,6 +90,7 @@
                             <button id="boton_biela">Bielas</button>
                             <button id="boton_manguera">Mangueras</button>
                             <button id="boton_motor">Motores</button>
+                            <button id="boton_alternador">Alternador</button>
                             <button id="boton_liks">LIKS</button>
                         </div>
 
@@ -102,6 +103,16 @@
         </main>
     </div>
     <!-- Codigo Java Script -->
-    <script src="../JS/botones_categorias.js"></script>
+    <script src="../JS/botones_categorias.js">
+        function ajustarAltura() {
+            const alturaViewport = window.innerHeight;
+            document.querySelector('.contenedor_principal').style.height = `${alturaViewport}px`;
+        }
+
+        // Ajusta al cargar y cuando cambie el tamaño de la ventana
+        window.addEventListener('resize', ajustarAltura);
+        window.addEventListener('load', ajustarAltura);
+
+    </script>
 </body>
 </html>

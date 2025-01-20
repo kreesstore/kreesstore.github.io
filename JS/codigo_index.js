@@ -21,11 +21,11 @@ let productosTotales = [
 
     new Producto(1, "Bateria 12V 75AH", "145.00$", "57 384.40$", "No Registrada", "baterias", 0, "IMG/Productos/Automotriz/bateria/75AH.jpg"),
     
-    new Producto(1002, "Correa", "$", "3 537.57$", "L2-20", "correas", 0, "IMG/Productos/Alt/correa.jpg"),
+    new Producto(403, "Aceite de Transmision Automatica", "11.57$", "4 136.58$", "CVT (1L)", "aceites", 0, "IMG/Productos/Automotriz/aceite/cvt.jpg"),
 
-    new Producto(1101, "Disco de Freno", "$", "9 402.03$", "MITSUBISHI MONTERO/L200 4WD", "discos", 0, "IMG/Productos/Alt/disco.jpg"),
+    new Producto(1104, "Disco MIT", "$", "15 415.12$", "54/4D55/56", "discos", 0, "IMG/Productos/Automotriz/discos/cloche.jpg"),
 
-    new Producto(301, "Amortiguador Derecho", "77.64$", "21 292.07$", "Atos", "amortiguacion", 1, "IMG/Productos/Alt/amortigua.png"),
+    new Producto(3001, "Motor de Arranque", "$", "105 053.94$", "No Registrado", "motor", 10, "IMG/Productos/Automotriz/motores/nasaki.jpg"),
 
 
 ];
@@ -43,7 +43,9 @@ function mostrarProductos(productos) {
         cajaSecundaria.classList.add("caja-secundaria");
         // Mostrar solo el nombre, la marca y el precio en la vista inicial
         cajaSecundaria.innerHTML = `<p><span class="producto_span">Nombre:</span> ${producto.nombre}</p>
-                                    <p><span class="producto_span">Marca:</span> ${producto.marca}</p>`;
+                                    <p><span class="producto_span">Marca:</span> ${producto.marca}</p>
+                                    <p><span class="producto_span">CUP:</span> ${producto.precio_cup}</p>`;
+
         cajaContenedora.appendChild(cajaSecundaria)
 
         // Verificar si el producto tiene una imagen y establecerla como fondo
@@ -77,7 +79,6 @@ function abrirProductoEmergente(producto) {
     let contenidoProducto = `
         <p><span class="producto_span">ID:</span> ${producto.id}</p>
         <p><span class="producto_span">Nombre:</span> ${producto.nombre}</p>
-        <p><span class="producto_span">Precio MLC:</span> ${producto.precio_mlc}</p>
         <p><span class="producto_span">Precio CUP:</span> ${producto.precio_cup}</p>
         <p><span class="producto_span">Marca:</span> ${producto.marca}</p>
         <p><span class="producto_span">Cantidad Disponible:</span> ${producto.cantidad}</p>`;
@@ -188,4 +189,4 @@ function abrirProductoEmergenteOferta() {
 
 let oferta_avierta = document.getElementById("oferta_avierta_ID")
 let oferta = document.getElementById("oferta");
-oferta.addEventListener("click", abrirProductoEmergenteOferta)
+// Borrado por error // oferta.addEventListener("click", abrirProductoEmergenteOferta)

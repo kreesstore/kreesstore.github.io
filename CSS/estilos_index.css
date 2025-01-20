@@ -1,11 +1,13 @@
 
 .mensaje_seguridad {
     position: absolute;
-    margin-top: 70%;
+    margin-top: 86%;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    background-color: rgb(255, 242, 223);
+
 }
 
 .mensaje_seguridad__contenedor {
@@ -13,7 +15,6 @@
     flex-direction: row;
     justify-content: flex-end;
     width: auto;
-    background: #fff;
 }
 
 .mensaje_seguridad__contenedor p {
@@ -76,12 +77,12 @@
 }
 
 .contenedor_nuevos_productos {
-    margin-top: 75%;
+    margin-top: 90%;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(223, 223, 223, 0.884);
+    background-color: rgba(223, 223, 223, 0.966);
 }
 
 
@@ -94,7 +95,7 @@
     margin: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 15px 0 rgb(0, 0, 0);
     transition: transform 0.3s ease;
     cursor: pointer;
     display: flex;
@@ -174,7 +175,7 @@
     border-radius: 10px;
     max-width: 500px;
     width: 100%;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -186,7 +187,7 @@
 /* Imagen del producto */
 .imagen-producto {
     max-width: 100%;
-    height: auto;
+    max-height: 500px;
     border-radius: 10px;
     margin-bottom: 15px;
 }
@@ -219,4 +220,15 @@
         height: 280px;
     }
     
+    .mensaje_seguridad {
+        margin-top: 31%;
+    }
+
+    .contenedor_nuevos_productos {
+        margin-top: 32%;
+    }
+
+    .mensaje_seguridad__contenedor p {
+        font-size: 12px;
+    }
 }
