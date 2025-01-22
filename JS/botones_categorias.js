@@ -122,8 +122,8 @@ let productosTotales = [
     // ------------------------------------------------------------------------------------------------ //
 
     // Frenos 
-    new Producto(501, "Taco de Freno", "$", "5 077.34$", "TOYOTA HIACE", "frenos", 0, "../IMG/Productos/Automotriz/freno/Lumii_20250115_114345681.jpg"),
-    new Producto(502, "Banda de Freno de Emergencia", "67.58$", "8 110.00$", "No Registrado", "frenos", 0),
+    new Producto(501, "Taco de Freno", "$", "5 077.34$", "TOYOTA HIACE", "frenos", 0),
+    new Producto(502, "Banda de Freno de Emergencia", "67.58$", "8 110.00$", "No Registrado", "frenos", 0, "../IMG/Productos/Automotriz/freno/Lumii_20250115_114345681.jpg"),
     new Producto(503, "Juego de Banda de Freno", "22.97$", "7 692.57$", "TRUCK", "frenos", 0),
 
 
@@ -162,7 +162,6 @@ let productosTotales = [
     new Producto(801, "Calentador de Bujias", "$", "1 150.91$", "TOYOTA 5L", "bujias", 0, "../IMG/Productos/Automotriz/bujias/toyota.jpg"),
     new Producto(802, "Bujia", "$", "1 365.61$", "LD-20", "bujias", 0, "../IMG/Productos/Automotriz/bujias/LD20.jpg"),
     new Producto(803, "Calentador de Bujias", "3.57$", "1 177.76$", "MITSUBISHI 4D 5612V(PEO7)", "bujias", 0, "../IMG/Productos/Automotriz/bujias/mitsubishi.jpg"),
-    new Producto(804, "Calentador de Bujias", "3.59$", "1 185.73$", "ISUSU 4J4/4 JB1 11V(p*59)", "bujias", 0, "../IMG/Productos/Alt/bujia.png"),
     new Producto(802, "itsuELF", "$", "1 365.61$", "LD-20", "bujias", 0, "../IMG/Productos/Automotriz/bujias/itsuELF.jpg"),
     new Producto(802, "itsu4J", "$", "1 365.61$", "LD-20", "bujias", 0, "../IMG/Productos/Automotriz/bujias/itsu4J.jpg"),
 
@@ -331,9 +330,9 @@ function mostrarProductos(productos) {
         let cajaSecundaria = document.createElement("div");
         cajaSecundaria.classList.add("caja-secundaria");
         // Mostrar solo el nombre, la marca y el precio en la vista inicial
-        cajaSecundaria.innerHTML = `<p><span class="producto_span">Nombre:</span> ${producto.nombre}</p>
-                                     <p><span class="producto_span">Marca:</span> ${producto.marca}</p>
-                                      <p><span class="producto_span">CUP:</span> ${producto.precio_cup}</p>`;
+        cajaSecundaria.innerHTML = `<p><span class="producto_span">Producto</span> ${producto.nombre}</p>
+                                     <p><span class="producto_span">Marca</span> ${producto.marca}</p>
+                                      <p><span class="producto_span">Precio</span> ${producto.precio_cup}</p>`;
                                     // Para agregar MLC
                                     //  <p><span class="producto_span">MLC:</span> ${producto.precio_mlc}</p>
                                     // Bajo CUP
@@ -367,13 +366,33 @@ function abrirProductoEmergente(producto) {
     let productoAmpliado = document.createElement("div");
     productoAmpliado.classList.add("producto-popup");
 
+    //`
+    //    <p><span class="producto_span">ID:</span> ${producto.id}</p>
+    //    <p><span class="producto_span">Nombre:</span> ${producto.nombre}</p>
+    //    <p><span class="producto_span">Precio CUP:</span> ${producto.precio_cup}</p>
+    //    <p><span class="producto_span">Marca:</span> ${producto.marca}</p>
+    //    <p><span class="producto_span">Cantidad Disponible:</span> ${producto.cantidad}</p>`
+
     // Rellenar con toda la información del producto
     let contenidoProducto = `
-        <p><span class="producto_span">ID:</span> ${producto.id}</p>
-        <p><span class="producto_span">Nombre:</span> ${producto.nombre}</p>
-        <p><span class="producto_span">Precio CUP:</span> ${producto.precio_cup}</p>
-        <p><span class="producto_span">Marca:</span> ${producto.marca}</p>
-        <p><span class="producto_span">Cantidad Disponible:</span> ${producto.cantidad}</p>`;
+        <table>
+            <tr>
+                <th class="producto_span">Tipo de Producto</th>
+                <td>${producto.nombre}</td>
+            <tr>
+            <tr>
+                <th class="producto_span">Precio CUP</th>
+                <td>${producto.precio_cup}</td>
+            <tr>
+            <tr>
+                <th class="producto_span">Marca</th>
+                <td>${producto.marca}</td>
+            <tr>
+            <tr>
+                <th class="producto_span">Disponibles</th>
+                <td>${producto.cantidad}</td>
+            <tr>
+        </table>`
         // Pra agregar MLC poner
         //         <p><span class="producto_span">Precio MLC:</span> ${producto.precio_mlc}</p>
         // Sobre CUP

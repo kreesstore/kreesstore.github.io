@@ -24,6 +24,7 @@ body {
 
 /* Contenedor Principal */
 
+
 .contenedor_principal {
     width: 100%;
     min-height: 100vh;
@@ -31,7 +32,7 @@ body {
     background-image: url(../IMG/Diseño/Fondo/fondo_de_pantalla_krees_1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-size: 100%;
     background-attachment: fixed;
     overflow-y: auto;
 
@@ -243,6 +244,11 @@ body {
     .ul__li a{
         font-size: 1.4em;
         font-weight: 700;
+    }
+
+    .contenedor_principal {
+        background-size: contain;
+    
     }
 }
 

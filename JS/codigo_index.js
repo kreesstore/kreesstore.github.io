@@ -42,9 +42,9 @@ function mostrarProductos(productos) {
         let cajaSecundaria = document.createElement("div");
         cajaSecundaria.classList.add("caja-secundaria");
         // Mostrar solo el nombre, la marca y el precio en la vista inicial
-        cajaSecundaria.innerHTML = `<p><span class="producto_span">Nombre:</span> ${producto.nombre}</p>
-                                    <p><span class="producto_span">Marca:</span> ${producto.marca}</p>
-                                    <p><span class="producto_span">CUP:</span> ${producto.precio_cup}</p>`;
+        cajaSecundaria.innerHTML = `<p><span class="producto_span">Producto</span> ${producto.nombre}</p>
+                                    <p><span class="producto_span">Marca</span> ${producto.marca}</p>
+                                    <p><span class="producto_span">Precio</span> ${producto.precio_cup}</p>`;
 
         cajaContenedora.appendChild(cajaSecundaria)
 
@@ -77,11 +77,24 @@ function abrirProductoEmergente(producto) {
 
     // Rellenar con toda la información del producto
     let contenidoProducto = `
-        <p><span class="producto_span">ID:</span> ${producto.id}</p>
-        <p><span class="producto_span">Nombre:</span> ${producto.nombre}</p>
-        <p><span class="producto_span">Precio CUP:</span> ${producto.precio_cup}</p>
-        <p><span class="producto_span">Marca:</span> ${producto.marca}</p>
-        <p><span class="producto_span">Cantidad Disponible:</span> ${producto.cantidad}</p>`;
+        <table>
+            <tr>
+                <th class="producto_span">Tipo de Producto</th>
+                <td>${producto.nombre}</td>
+            <tr>
+            <tr>
+                <th class="producto_span">Precio CUP</th>
+                <td>${producto.precio_cup}</td>
+            <tr>
+            <tr>
+                <th class="producto_span">Marca</th>
+                <td>${producto.marca}</td>
+            <tr>
+            <tr>
+                <th class="producto_span">Disponibles</th>
+                <td>${producto.cantidad}</td>
+            <tr>
+        </table>`;
 
     // Verificar si hay una imagen para mostrar
     if (producto.imagen) {
