@@ -27,7 +27,7 @@ body {
 
 .contenedor_principal {
     width: 100%;
-    
+    min-height: 100vh;
     background-image: url(../IMG/Diseño/Fondo/fondo_de_pantalla_krees_1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -121,12 +121,13 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    border: 3px solid rgb(27, 30, 54);
+    border: 2px solid rgb(27, 30, 54);
     border-radius: 4px;
     overflow: hidden;
 
     border-bottom-left-radius: 12px;
     border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
     background-color: rgba(255, 255, 255, 0.527);
 }
 

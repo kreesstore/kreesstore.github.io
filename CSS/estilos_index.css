@@ -10,7 +10,7 @@
 }
 
 .mensaje_seguridad__contenedor {
-    width: 50%;
+    width: 65%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
