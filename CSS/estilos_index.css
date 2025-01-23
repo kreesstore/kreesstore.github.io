@@ -57,7 +57,6 @@
     height: max-content;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
     margin-top: 2vh;
 }
