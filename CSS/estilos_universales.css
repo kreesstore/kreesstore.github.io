@@ -31,7 +31,7 @@ body {
     background-image: url(../IMG/Diseño/Fondo/fondo_de_pantalla_krees_1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     overflow-y: auto;
 
