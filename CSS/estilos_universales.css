@@ -27,12 +27,11 @@ body {
 
 .contenedor_principal {
     width: 100%;
-    min-height: 100vh;
     
     background-image: url(../IMG/Diseño/Fondo/fondo_de_pantalla_krees_1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 100%;
+    background-size: contain;
     background-attachment: fixed;
     overflow-y: auto;
 
@@ -116,12 +115,24 @@ body {
 }
 
 .nav__cont_buscador {
+    width: 54%;
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    border: 3px solid rgb(27, 30, 54);
+    border-radius: 4px;
+    overflow: hidden;
+
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.527);
 }
+
+/*    border-bottom: 2px solid rgb(27, 30, 54);
+    border-left: 2px solid rgb(27, 30, 54);
+    border-bottom-left-radius: 12px; */
 
 #input_busqueda {
     width: 80%;
@@ -129,9 +140,7 @@ body {
     background-color: transparent;
     border: none;
     outline: none;
-    border-bottom: 2px solid rgb(27, 30, 54);
-    border-left: 2px solid rgb(27, 30, 54);
-    border-bottom-left-radius: 12px;
+
     color: rgb(27, 30, 54);
 }
 
@@ -139,8 +148,21 @@ body {
     user-select: none;
 }
 
-#boton_buscar {
+.cont_lupa {
     width: 20%;
+    height: 29px;
+
+    border-left: 2.6px solid rgb(27, 30, 54);
+
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 131, 22);
+}
+
+#boton_buscar {
+    width: 90%;
     height: 80%;
     border: none;
     background-color: transparent;
@@ -148,6 +170,8 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
+    
+
 }
 
 #boton_buscar:hover {
@@ -245,11 +269,6 @@ body {
         font-size: 1.4em;
         font-weight: 700;
     }
-
-    .contenedor_principal {
-        background-size: contain;
-    
-    }
 }
 
 @media (min-width: 700px) {
@@ -315,5 +334,9 @@ body {
         display: flex;
         width: 32px;
         height: 28px;
+    }
+
+    .nav__cont_buscador {
+        width: 25%;
     }
 }
