@@ -22,7 +22,7 @@ let productosTotales = [
     
     new Producto(403, "Aceite de Transmision Automatica", "11.57$", "4 136.58$", "CVT (1L)", "aceites", 0, "IMG/Productos/Automotriz/aceite/cvt.jpg"),
 
-    new Producto(104, "Filtro De Aire", "$", "2 108.48$", "HYUNDAY", "filtros", 2, "../IMG/Productos/Automotriz/filtro/aire.jpg"),
+    new Producto(104, "Filtro De Aire", "$", "2 108.48$", "HYUNDAY", "filtros", 2, "IMG/Productos/Automotriz/filtro/aire.jpg"),
 
     new Producto(1104, "Disco MIT", "$", "15 415.12$", "54/4D55/56", "discos", 0, "IMG/Productos/Automotriz/discos/cloche.jpg"),
 
@@ -30,9 +30,9 @@ let productosTotales = [
 
     new Producto(3021, "LIKS", "1$", "266 646.18$", "Motrex", "liks", 10, "IMG/Productos/Automotriz/liks/motorex.jpg"),
 
-    new Producto(1302, "Anillos", "$", "8 323.33$", "STD TOYOTA 2L(5929)", "anillos", 0, "../IMG/Productos/Automotriz/anillos/2.jpg"),
+    new Producto(1302, "Anillos", "$", "8 323.33$", "STD TOYOTA 2L(5929)", "anillos", 0, "IMG/Productos/Automotriz/anillos/2.jpg"),
 
-    new Producto(802, "Bujia", "$", "1 365.61$", "LD-20", "bujias", 0, "../IMG/Productos/Automotriz/bujias/LD20.jpg"),
+    new Producto(802, "Bujia", "$", "1 365.61$", "LD-20", "bujias", 0, "IMG/Productos/Automotriz/bujias/LD20.jpg"),
 
     new Producto(1, "Bateria 12V 75AH", "145.00$", "57 384.40$", "No Registrada", "baterias", 0, "IMG/Productos/Automotriz/bateria/75AH.jpg"),
 

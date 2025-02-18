@@ -46,9 +46,10 @@ let productosTotales = [
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
 
-    // Clavo --- clavo
+    // SuministrosC --- suministrosc
 
-    new Producto(301, "Clavo de Alambre", "$", "32 574.43$", "No Registrado", "clavo", 1),
+    new Producto(301, "Clavo de Alambre", "$", "32 574.43$", "No Registrado", "suministrosc", 1),
+    new Producto(302, "Tornillos", "$", "2 917.36$", "No Registrado", "suministrosc", 5, "../IMG/Productos/Ferreteria/suministrosc/tornillos.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -64,10 +65,10 @@ let productosTotales = [
 
     // Baterías
     //new Producto(1, "Bateria 12V 200AH", "330.00$", "131 769.10$", "Cobelak", "baterias", 0, "../IMG/Productos/Alt/bateria.jpg"),
-    new Producto(1, "Bateria 12V 155AH", "285.00$", "113 138.35$", "Cobelak", "baterias", 0, "../IMG/Productos/Automotriz/bateria/155AH.jpg"),
+    new Producto(1, "Bateria 12V 155AH", "285.00$", "113 138.35$", "Cobelak", "baterias", 4, "../IMG/Productos/Automotriz/bateria/155AH.jpg"),
     //new Producto(1, "Bateria 12V 115AH", "240.00$", "93 063.46$", "Cobelak", "baterias", 0, "../IMG/Productos/Alt/bateria.jpg"),
     //new Producto(1, "Bateria 12V 110AH", "210.00$", "83 351.62$", "Cobelak", "baterias", 0, "../IMG/Productos/Alt/bateria.jpg"),
-    new Producto(1, "Bateria 12V 75AH", "145.00$", "57 384.40$", "Cobelak", "baterias", 0, "../IMG/Productos/Automotriz/bateria/75AH.jpg"),
+    new Producto(1, "Bateria 12V 75AH", "145.00$", "57 384.40$", "Cobelak", "baterias", 6, "../IMG/Productos/Automotriz/bateria/75AH.jpg"),
 
 
     // ------------------------------------------------------------------------------------------------ //
@@ -76,23 +77,23 @@ let productosTotales = [
 
     // Filtros
     //new Producto(101, "Bombin de Petroleo", "26.69$", "9 609.88$", "Pendiente", "filtros", 15, "../IMG/Productos/Alt/filtros.jpg"),
-    new Producto(102, "Filtro", "$", "1 166.02$", "TOYOTA 2E/4A", "filtros", 2, "../IMG/Productos/Automotriz/filtro/toyotaYaris.jpg"),
+    new Producto(102, "Filtro de Aceite", "$", "1 166.02$", "TOYOTA 2E/4A", "filtros", 47, "../IMG/Productos/Automotriz/filtro/toyotaYaris.jpg"),
 
     new Producto(102, "Filtro de Gasolina", "6.41$", "1 761.72$", "HYUNDAY", "filtros", 2, "../IMG/Productos/Automotriz/filtro/gasolina.jpg"),
     new Producto(103, "Filtro Decantador de Agua", "14.04$", "3 862.23$", "HYUNDAY", "filtros", 2, "../IMG/Productos/Automotriz/filtro/decantador.jpg"),
     new Producto(104, "Filtro De Aire", "$", "2 108.48$", "HYUNDAY", "filtros", 2, "../IMG/Productos/Automotriz/filtro/aire.jpg"),
-    new Producto(105, "Filtro Diesel", "3.60$", "1 187.02$", "MITSUBISHI L200/L300", "filtros", 0, "../IMG/Productos/Automotriz/filtro/dieselL300.jpg"),
+    new Producto(105, "Filtro Diesel", "3.60$", "1 187.02$", "MITSUBISHI L200/L300", "filtros", 2, "../IMG/Productos/Automotriz/filtro/dieselL300.jpg"),
     new Producto(106, "Filtro Diesel", "3.50$", "1 155.01$", "NISSAN SD23/TD27(02N10)", "filtros", 0, "../IMG/Productos/Automotriz/filtro/dieselTD27.jpg"),
-    new Producto(107, "Filtro Diesel", "3.49$", "1 152.42$", "TOYOTA 2L/3L", "filtros", 0, "../IMG/Productos/Automotriz/filtro/toyota3L.jpg"),
-    new Producto(108, "Filtro Diesel", "3.50$", "1 159.91$", "MITSUBISHI CANTER/ROSA 4D30", "filtros", 0, "../IMG/Productos/Automotriz/filtro/mitsu33.jpg"),
+    new Producto(107, "Filtro Diesel", "3.49$", "1 152.42$", "TOYOTA 2L/3L", "filtros", 22, "../IMG/Productos/Automotriz/filtro/toyota3L.jpg"),
+    new Producto(108, "Filtro Diesel", "3.50$", "1 159.91$", "MITSUBISHI CANTER/ROSA 4D30", "filtros", 28, "../IMG/Productos/Automotriz/filtro/mitsu33.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
 
     // Neumáticos
-    new Producto(201, "Neumático Delantero 500*8", "$", "14 346.41$", "No Registrado", "neumaticos", 0, "../IMG/Productos/Automotriz/neumatico/500.jpg"),
-    new Producto(202, "Neumático Trasero 6 50*10", "$", "16 692.81$", "No Registrado", "neumaticos", 0, "../IMG/Productos/Automotriz/neumatico/6.jpg"),
+    new Producto(201, "Neumático Delantero 500*80", "$", "14 346.41$", "No Registrado", "neumaticos", 4, "../IMG/Productos/Automotriz/neumatico/500.jpg"),
+    new Producto(202, "Neumático Trasero 6 50*10", "$", "16 692.81$", "No Registrado", "neumaticos", 2, "../IMG/Productos/Automotriz/neumatico/6.jpg"),
 
 
     // ------------------------------------------------------------------------------------------------ //
@@ -100,7 +101,7 @@ let productosTotales = [
     // ------------------------------------------------------------------------------------------------ //
 
     // Amortiguación
-    new Producto(301, "Amortiguador Derecho", "77.64$", "21 292.07$", "Atos", "amortiguacion", 1, "../IMG/Productos/Automotriz/amortiguador/Lumii_20250117_105017738.jpg"),
+    new Producto(301, "Amortiguador Derecho", "77.64$", "21 292.07$", "Atos", "amortiguacion", 2, "../IMG/Productos/Automotriz/amortiguador/Lumii_20250117_105017738.jpg"),
     //new Producto(302, "Amortiguador Isquierdo", "77.64$", "21 292.07$", "Atos", "amortiguacion", 1, "../IMG/Productos/Alt/amortigua.png"),
 
 
@@ -110,11 +111,11 @@ let productosTotales = [
 
     // Aceites
 
-    //new Producto(401, "Aceite", "7.12$", "2 546.09$", "15W40 Diesel API CH-4(5L)", "aceites", 0, "../IMG/Productos/Alt/aceite.png"),
-    //new Producto(402, "Aceite", "7.12$", "2 545.59$", "15W40 Gasolina API SL(5L)", "aceites", 0, "../IMG/Productos/Alt/aceite.png"),
-    new Producto(403, "Aceite de Transmision Automatica", "11.57$", "4 136.58$", "CVT (1L)", "aceites", 0, "../IMG/Productos/Automotriz/aceite/cvt.jpg"),
-    new Producto(404, "Liquido de Freno", "12.11$", "4 328.70$", "(500ml)", "aceites", 0, "../IMG/Productos/Automotriz/aceite/liquidoDeFrnoDOT3.jpg"),
-    new Producto(405, "Grasa de Calcio Multiuso", "9.62$", "3 340.22$", "MP3 (1Kg)", "aceites", 0, "../IMG/Productos/Automotriz/aceite/Lumii_20250114_112826723.jpg"),
+    new Producto(401, "Aceite", "7.12$", "9 957.30$", "15W40 Diesel API CH-4(5L)", "aceites", 15, "../IMG/Productos/Automotriz/aceite/petroleo.jpg"),
+    new Producto(402, "Aceite", "7.12$", "12 727.95.59$", "15W40 Gasolina API SL(5L)", "aceites", 5, "../IMG/Productos/Automotriz/aceite/petroleo.jpg"),
+    new Producto(403, "Aceite de Transmision Automatica", "11.57$", "2 993.41$", "CVT (1L)", "aceites", 12, "../IMG/Productos/Automotriz/aceite/cvt.jpg"),
+    new Producto(404, "Liquido de Freno", "12.11$", "3 386.41$", "(500ml)", "aceites", 2, "../IMG/Productos/Automotriz/aceite/liquidoDeFrnoDOT3.jpg"),
+    new Producto(405, "Grasa de Calcio Multiuso", "9.62$", "2 691.28$", "MP3 (1Kg)", "aceites", 9, "../IMG/Productos/Automotriz/aceite/grasa.jpg"),
 
 
     // ------------------------------------------------------------------------------------------------ //
@@ -122,9 +123,9 @@ let productosTotales = [
     // ------------------------------------------------------------------------------------------------ //
 
     // Frenos 
-    new Producto(501, "Taco de Freno", "$", "5 077.34$", "TOYOTA HIACE", "frenos", 0),
-    new Producto(502, "Banda de Freno de Emergencia", "67.58$", "8 110.00$", "No Registrado", "frenos", 0, "../IMG/Productos/Automotriz/freno/Lumii_20250115_114345681.jpg"),
-    new Producto(503, "Juego de Banda de Freno", "22.97$", "7 692.57$", "TRUCK", "frenos", 0),
+    new Producto(501, "Taco de Freno", "$", "5 077.34$", "TOYOTA HIACE", "frenos", 2),
+    new Producto(502, "Banda de Freno de Emergencia", "67.58$", "8 110.00$", "No Registrado", "frenos", 2, "../IMG/Productos/Automotriz/freno/Lumii_20250115_114345681.jpg"),
+    new Producto(503, "Juego de Banda de Freno", "22.97$", "7 692.57$", "TRUCK", "frenos", 2),
 
 
     // ------------------------------------------------------------------------------------------------ //
@@ -133,11 +134,11 @@ let productosTotales = [
 
     // Kit de Reparacion --- kit
 
-    new Producto(601, "Kit de Reparacion EMP", "35.42$", "11 687.39$", "TOYOTA 2L(54083)", "kit", 0,"../IMG/Productos/Automotriz/emp/Toyota2L.jpg"),
-    new Producto(602, "Kit de Reparacion", "$", "9 717.82$", "TOYOTA 5L(54280)", "kit", 0, "../IMG/Productos/Automotriz/emp/toyota5L.jpg"),
-    new Producto(603, "Kit de Reparacion", "$", "11 824.99$", "TOYOTA 3L", "kit", 0, "../IMG/Productos/Automotriz/emp/toyota3L.jpg"),
-    new Producto(604, "Kit de Reparacion", "$", "6 470.86$", "MITSUBISHI Lanser(781041/M)", "kit", 0, "../IMG/Productos/Automotriz/emp/mitsuLANCER.jpg"),
-    new Producto(605, "Kit de Reparacion", "33.74$", "11 134.28$", "NISSAN TD27(3685M)", "kit", 0, "../IMG/Productos/Automotriz/emp/nissanTD27.jpg"),
+    new Producto(601, "Kit de Reparacion EMP", "35.42$", "11 687.39$", "TOYOTA 2L(54083)", "kit", 4,"../IMG/Productos/Automotriz/emp/Toyota2L.jpg"),
+    new Producto(602, "Kit de Reparacion", "$", "9 717.82$", "TOYOTA 5L(54280)", "kit", 4, "../IMG/Productos/Automotriz/emp/toyota5L.jpg"),
+    new Producto(603, "Kit de Reparacion", "$", "11 824.99$", "TOYOTA 3L", "kit", 4, "../IMG/Productos/Automotriz/emp/toyota3L.jpg"),
+    new Producto(604, "Kit de Reparacion", "$", "6 470.86$", "MITSUBISHI Lanser(781041/M)", "kit", 4, "../IMG/Productos/Automotriz/emp/mitsuLANCER.jpg"),
+    new Producto(605, "Kit de Reparacion", "33.74$", "11 134.28$", "NISSAN TD27(3685M)", "kit", 4, "../IMG/Productos/Automotriz/emp/nissanTD27.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -146,11 +147,12 @@ let productosTotales = [
     // Juntas --- juntas
 
     
-    new Producto(701, "Tapa de BLOCK", "$", "3 733.98$", "4D-30", "juntas", 0, "../IMG/Productos/Automotriz/sello/juntaBlock4D.jpg"),
-    new Producto(702, "Tapa de BLOCK", "$", "4 078.62$", "LD-20", "juntas", 0, "../IMG/Productos/Automotriz/sello/juntaBlockLD20.jpg"),
+    new Producto(701, "Tapa de BLOCK", "$", "3 733.98$", "4D-30", "juntas", 1, "../IMG/Productos/Automotriz/sello/juntaBlock4D.jpg"),
+    new Producto(702, "Tapa de BLOCK", "$", "4 078.62$", "LD-20", "juntas", 2, "../IMG/Productos/Automotriz/sello/juntaBlockLD20.jpg"),
     new Producto(703, "Junta de Inyectores", "0.64$", "175.37$", "No Registrado", "juntas", 0),
     
-    new Producto(706, "Sello de Aceite C/V", "3.99$", "1 096.09$", "No Registrado", "juntas", 0, "../IMG/Productos/Automotriz/sello/aceite.jpg"),
+    new Producto(706, "Sello de Aceite C/V", "3.99$", "1 096.09$", "No Registrado", "juntas", 2, "../IMG/Productos/Automotriz/sello/aceite.jpg"),
+    new Producto(707, "Junta", "0.64$", "11 687.30$", "Toyota 2L", "juntas", 2),
 
 
     // ------------------------------------------------------------------------------------------------ //
@@ -159,11 +161,11 @@ let productosTotales = [
 
     // Bujias --- bujias
 
-    new Producto(801, "Calentador de Bujias", "$", "1 150.91$", "TOYOTA 5L", "bujias", 0, "../IMG/Productos/Automotriz/bujias/toyota.jpg"),
-    new Producto(802, "Bujia", "$", "1 365.61$", "LD-20", "bujias", 0, "../IMG/Productos/Automotriz/bujias/LD20.jpg"),
-    new Producto(803, "Calentador de Bujias", "3.57$", "1 177.76$", "MITSUBISHI 4D 5612V(PEO7)", "bujias", 0, "../IMG/Productos/Automotriz/bujias/mitsubishi.jpg"),
-    new Producto(802, "itsuELF", "$", "1 365.61$", "LD-20", "bujias", 0, "../IMG/Productos/Automotriz/bujias/itsuELF.jpg"),
-    new Producto(802, "itsu4J", "$", "1 365.61$", "LD-20", "bujias", 0, "../IMG/Productos/Automotriz/bujias/itsu4J.jpg"),
+    new Producto(801, "Calentador de Bujias", "$", "1 150.91$", "TOYOTA 5L", "bujias", 2, "../IMG/Productos/Automotriz/bujias/toyota.jpg"),
+    new Producto(802, "Bujia", "$", "1 365.61$", "LD-20", "bujias", 2, "../IMG/Productos/Automotriz/bujias/LD20.jpg"),
+    new Producto(803, "Calentador de Bujias", "3.57$", "1 177.76$", "MITSUBISHI 4D 5612V(PEO7)", "bujias", 2, "../IMG/Productos/Automotriz/bujias/mitsubishi.jpg"),
+    new Producto(804, "itsuELF", "$", "1 185.73$", "LD-20", "bujias", 68, "../IMG/Productos/Automotriz/bujias/itsuELF.jpg"),
+    new Producto(805, "itsu4J", "$", "1 185.73$", "LD-20", "bujias", 68, "../IMG/Productos/Automotriz/bujias/itsu4J.jpg"),
 
 
 
@@ -173,7 +175,7 @@ let productosTotales = [
 
     // Esfericas Superiores --- esfericas superiores
 
-    new Producto(901, "Esfericas Superior", "$", "4 328.36$", "HIACE", "esfericas superiores", 0, "../IMG/Productos/Automotriz/esfericas/Lumii_20250117_105238107.jpg"),
+    new Producto(901, "Esfericas Superior", "$", "4 328.36$", "HIACE", "esfericas superiores", 4, "../IMG/Productos/Automotriz/esfericas/Lumii_20250117_105238107.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -182,13 +184,13 @@ let productosTotales = [
     // Correas --- correas
 
     new Producto(1001, "Correa", "7.86$", "1 160.30$", "No Registrada", "correas", 0, "../IMG/Productos/Automotriz/correa/correa.jpg"),
-    new Producto(1002, "Correa", "$", "3 537.57$", "LD-20", "correas", 0, "../IMG/Productos/Automotriz/correa/crreaLD20.jpg"),
-    new Producto(1003, "Correa de Tiempo T99", "$", "2 302.63$", "MITSUBISHI", "correas", 0, "../IMG/Productos/Automotriz/correa/correaDeTiempoT99.jpg"),
-    new Producto(1002, "Correa", "$", "3 813.62$", "A-29", "correas", 0, "../IMG/Productos/Automotriz/correa/correaA29.jpg"),
+    new Producto(1002, "Correa", "$", "3 537.57$", "LD-20", "correas", 10, "../IMG/Productos/Automotriz/correa/crreaLD20.jpg"),
+    new Producto(1003, "Correa de Tiempo T99", "$", "2 302.63$", "MITSUBISHI", "correas", 10, "../IMG/Productos/Automotriz/correa/correaDeTiempoT99.jpg"),
+    new Producto(1002, "Correa", "$", "3 401.82$", "A-29", "correas", 3, "../IMG/Productos/Automotriz/correa/correaA29.jpg"),
 
-    new Producto(1002, "Correa", "$", "8 580.64$", "2L-3L-5L", "correas", 0, "../IMG/Productos/Automotriz/correa/correa2L3L5L.jpg"),
-    new Producto(1002, "Correa", "$", "7 480.98$", "42", "correas", 0, "../IMG/Productos/Automotriz/correa/correa42.jpg"),
-    new Producto(1002, "Correa", "$", "8 531.89$", "2L T 130", "correas", 0, "../IMG/Productos/Automotriz/correa/correa2lT130.jpg"),
+    new Producto(1002, "Correa", "$", "7 654.10$", "2L-3L-5L", "correas", 3, "../IMG/Productos/Automotriz/correa/correa2L3L5L.jpg"),
+    new Producto(1002, "Correa", "$", "5 987.25$", "42", "correas", 3, "../IMG/Productos/Automotriz/correa/correa42.jpg"),
+    new Producto(1002, "Correa", "$", "7 610.61$", "2L T 130", "correas", 2, "../IMG/Productos/Automotriz/correa/correa2lT130.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -196,11 +198,13 @@ let productosTotales = [
 
     // Discos --- discos
 
-    new Producto(1101, "Disco de Freno", "$", "9 402.03$", "MITSUBISHI MONTERO/L200 4WD", "discos", 0, "../IMG/Productos/Automotriz/discos/freno.jpg"),
+    new Producto(1101, "Disco de Freno", "$", "9 402.03$", "MITSUBISHI MONTERO/L200 4WD", "discos", 4, "../IMG/Productos/Automotriz/discos/freno.jpg"),
     //new Producto(1102, "Disco de Embrage", "48.55$", "13 352.38$", "HYUNDAY", "discos", 0, "../IMG/Productos/Alt/disco.jpg"),
     //new Producto(1103, "Disco de Embrage", "$", "13 832.57$", "TOYOTA 2L/3L/3Y", "discos", 0, "../IMG/Productos/Alt/disco.jpg"),
-    //new Producto(1104, "Disco de Embrage", "$", "15 107.72$", "TOYOTA 3L(35121)", "discos", 0, "../IMG/Productos/Alt/disco.jpg"),
-    new Producto(1104, "Disco MIT", "$", "15 415.12$", "54/4D55/56", "discos", 0, "../IMG/Productos/Automotriz/discos/cloche.jpg"),
+    new Producto(1104, "Disco de Embrage", "$", "9 879.82$", "TOYOTA 3L(35121)", "discos", 0, "../IMG/Productos/Alt/disco.jpg"),
+    new Producto(1104, "Disco MIT", "$", "15 415.12$", "54/4D55/56", "discos", 2, "../IMG/Productos/Automotriz/discos/cloche.jpg"),
+    new Producto(1105, "Disco", "$", "9 614.03$", "TOYOTA 2L", "discos", 3, "../IMG/Productos/Alt/disco.jpg"),
+    new Producto(1105, "Disco", "$", "9 438.94$", "TOYOTA 2L", "discos", 2, "../IMG/Productos/Alt/disco.jpg"),
 
 
 
@@ -210,7 +214,7 @@ let productosTotales = [
 
     // Buje --- buje
 
-    new Producto(1201, "Buje", "0.97$", "267.05$", "No Registrado", "buje", 1, "../IMG/Productos/Automotriz/buje/Lumii_20250114_112350448.jpg"),
+    new Producto(1201, "Buje", "0.97$", "267.05$", "No Registrado", "buje", 2, "../IMG/Productos/Automotriz/buje/Lumii_20250114_112350448.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -228,7 +232,7 @@ let productosTotales = [
 
     // Banda --- banda
 
-    // new Producto(1401, "Banda", "35$", "9 402.03$", "Francia", "banda", 1),
+    new Producto(1401, "Banda", "35$", "7 026.94$", "No Registrada", "banda", 2),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -237,7 +241,7 @@ let productosTotales = [
     // Rodamiento --- rodamiento
 
     new Producto(1501, "Rodamiento Trasero Conico", "20.83$", "5 767.46$", "Union", "rodamiento", 2, "../IMG/Productos/Automotriz/rodamiento/azul.jpg"),
-    new Producto(1501, "Rodamiento Trasero Conico", "20.83$", "5 767.46$", "No Registrado", "rodamiento", 2, "../IMG/Productos/Automotriz/rodamiento/01.jpg"),
+    // new Producto(1501, "Rodamiento Trasero Conico", "20.83$", "5 767.46$", "No Registrado", "rodamiento", 2, "../IMG/Productos/Automotriz/rodamiento/01.jpg"),
 
 
     // ------------------------------------------------------------------------------------------------ //
@@ -246,7 +250,7 @@ let productosTotales = [
 
     // Farol --- farol
 
-    new Producto(1301, "Farol Trasero", "51.93$", "14 281.07$", "No Registrada", "farol", 0, "../IMG/Productos/Automotriz/farol/01.jpg"),
+    new Producto(1301, "Farol Trasero", "51.93$", "14 281.07$", "No Registrada", "farol", 2, "../IMG/Productos/Automotriz/farol/01.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -254,8 +258,8 @@ let productosTotales = [
 
     // Reten --- reten
 
-    new Producto(1604, "Retente Aceite Ruedas Delanteras", "$", "243.13$", "No Registrado", "reten", 0, "../IMG/Productos/Automotriz/reten/delanteras.jpg"),
-    new Producto(1605, "Retente de Aceite", "$", "358.72$", "No Registrado", "reten", 0, "../IMG/Productos/Automotriz/reten/reten.jpg"),
+    new Producto(1604, "Retente Aceite Ruedas Delanteras", "$", "243.13$", "No Registrado", "reten", 2, "../IMG/Productos/Automotriz/reten/delanteras.jpg"),
+    new Producto(1605, "Retente de Aceite", "$", "358.72$", "No Registrado", "reten", 2, "../IMG/Productos/Automotriz/reten/reten.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -263,7 +267,7 @@ let productosTotales = [
 
     // Pinza --- pinza
 
-    new Producto(1701, "Pinza de Freno", "204.10$", "56 127.84$", "Tracero Derecho.27", "pinza", 1, "../IMG/Productos/Automotriz/pinza/Lumii_20250114_113138733.jpg"),
+    new Producto(1701, "Pinza de Freno", "204.10$", "56 127.84$", "Tracero Derecho.27", "pinza", 2, "../IMG/Productos/Automotriz/pinza/Lumii_20250114_113138733.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -271,31 +275,32 @@ let productosTotales = [
 
     // Biela --- biela
 
-    new Producto(1801, "Metal Biela", "31.60$", "10 428.02$", 'MITSUBISHI STD 4D56(M"2D)', "biela", 0, "../IMG/Productos/Automotriz/bielas/mitsu.jpg"),
-    new Producto(1802, "Juego de Metal Apoyo", "$", "4 421.98$", 'No Registrada', "biela", 0, "../IMG/Productos/Automotriz/bielas/C190.jpg"),
-    new Producto(1803, "JMetal de Biela C240 STD", "$", "3 979.80$", 'Glow Plug', "biela", 0, "../IMG/Productos/Automotriz/bielas/C240.jpg"),
+    new Producto(1801, "Metal Biela 4D", "31.60$", "10 428.02$", 'MITSUBISHI STD 4D56(M"2D)', "biela", 1, "../IMG/Productos/Automotriz/bielas/mitsu.jpg"),
+    new Producto(1802, "Juego de Metal Apoyo", "$", "4 421.98$", 'No Registrada', "biela", 2, "../IMG/Productos/Automotriz/bielas/C190.jpg"),
+    new Producto(1803, "Juego de Metal de Biela C240 STD", "$", "3 979.80$", 'Glow Plug', "biela", 0, "../IMG/Productos/Automotriz/bielas/C240.jpg"),
 
-    new Producto(1804, "Metal de Bamcada", "$", "3 537.59$", 'NISSAN TD/27STD', "biela", 0, "../IMG/Productos/Automotriz/bielas/nissan.jpg"),
+    new Producto(1804, "Metal de Bancada", "$", "3 537.59$", 'NISSAN TD/27STD', "biela", 1, "../IMG/Productos/Automotriz/bielas/nissan.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
 
     // Manguera --- manguera
-
-    new Producto(1902, "Manguera de Salida Del Radiador", "11.26$", "4051.97$", "No Espesificado", "manguera", 5, "../IMG/Productos/Automotriz/mangueras/entradaYsalida.jpg"),
-    new Producto(1903, "Manguera Corrugada 32 X 700", "15.38$", "5 536.25$", "No Registrado", "manguera", 10, "../IMG/Productos/Automotriz/mangueras/mediana.jpg"),
-    new Producto(1904, "Manguera Corrugada 38 x 500", "11.26$", "5536.00$", "No Registrado", "manguera", 10, "../IMG/Productos/Automotriz/mangueras/larga.jpg"),
+    new Producto(1901, "Manguera de Entrada Del Radiador", "11.26$", "3 664.33$", "No Espesificado", "manguera", 5, "../IMG/Productos/Automotriz/mangueras/entradaYsalida.jpg"),
+    new Producto(1902, "Manguera de Salida Del Radiador", "11.26$", "3 664.43$", "No Espesificado", "manguera", 5, "../IMG/Productos/Automotriz/mangueras/entradaYsalida.jpg"),
+    new Producto(1903, "Manguera Corrugada 32 X 700", "15.38$", "4 778.00$", "No Registrado", "manguera", 10, "../IMG/Productos/Automotriz/mangueras/mediana.jpg"),
+    new Producto(1904, "Manguera Corrugada 38 x 500", "11.26$", "4 778.00$", "No Registrado", "manguera", 10, "../IMG/Productos/Automotriz/mangueras/larga.jpg"),
+    new Producto(1905, "Manguera de Freno", "11.26$", "1 606.27$", "No Registrado", "manguera", 2, "../IMG/Productos/Automotriz/mangueras/deFreno.jpg"),
 
     // Motor --- motor
 
-    new Producto(3001, "Motor de Arranque", "$", "105 053.94$", "No Registrado", "motor", 10, "../IMG/Productos/Automotriz/motores/nasaki.jpg"),
-    new Producto(3002, "Motor de Arranque", "1$", "144 402.39$", "No Registrado", "motor", 10, "../IMG/Productos/Automotriz/motores/verde.jpg"),
-    new Producto(3003, "Motor", "1$", "0$", "No Registrado", "motor", 10, "../IMG/Productos/Automotriz/motores/bomba.jpg"),
+    new Producto(3001, "Motor de Arranque", "$", "105 053.94$", "No Registrado", "motor", 1, "../IMG/Productos/Automotriz/motores/nasaki.jpg"),
+    new Producto(3002, "Motor de Arranque", "1$", "144 402.39$", "No Registrado", "motor", 1, "../IMG/Productos/Automotriz/motores/verde.jpg"),
+    new Producto(3003, "Bomba de Agua", "1$", "19 897.59$", "No Registrado", "motor", 2, "../IMG/Productos/Automotriz/motores/bomba.jpg"),
 
     // Alternador -- alternador
 
-    new Producto(3012, "Alternador", "1$", "169 581.68$", "Toyota", "alternador", 10, "../IMG/Productos/Automotriz/alternador/verde.jpg"),
+    new Producto(3012, "Alternador", "1$", "169 581.68$", "Toyota", "alternador", 1, "../IMG/Productos/Automotriz/alternador/verde.jpg"),
 
 
     // LIKS --- liks
@@ -303,6 +308,8 @@ let productosTotales = [
     new Producto(3021, "LIKS", "1$", "266 646.18$", "Motrex", "liks", 10, "../IMG/Productos/Automotriz/liks/motorex.jpg"),
     new Producto(3022, "LIKS", "1$", "204 495.32$", "Toyosisa", "liks", 10, "../IMG/Productos/Automotriz/liks/toyosia.jpg"),
 
+    // Otros --- otros
+    new Producto(3031, "Radiador", "1$", "14 892.81$", "No Registrado", "otros", 0, "../IMG/Productos/Automotriz/otros/radiador.jpg"),
 
 ];
 
@@ -325,10 +332,13 @@ function mostrarProductos(productos) {
     contenedorResultados.innerHTML = ""; // Limpiar resultados anteriores
 
     productos.forEach(producto => {
+        
         let cajaContenedora = document.createElement("div");
         cajaContenedora.classList.add("producto-caja");
         let cajaSecundaria = document.createElement("div");
         cajaSecundaria.classList.add("caja-secundaria");
+
+        
         // Mostrar solo el nombre, la marca y el precio en la vista inicial
         cajaSecundaria.innerHTML = `<p><span class="producto_span">Producto</span> ${producto.nombre}</p>
                                      <p><span class="producto_span">Marca</span> ${producto.marca}</p>
@@ -351,6 +361,23 @@ function mostrarProductos(productos) {
         }
 
         // Agregar evento para expandir el producto cuando se hace clic
+        // ------------------------- //
+        let producto_en_cero = producto.cantidad
+        if (producto_en_cero == 0){
+            let cajaContenedora0 = document.createElement("div");
+            cajaContenedora0.classList.add("producto-caja-0");
+
+            let cont_texto_cero = document.createElement('p')
+            cont_texto_cero.classList.add("texto_cero")
+
+            let texto_cero = document.createTextNode("Agotado")
+            cont_texto_cero.appendChild(texto_cero)
+            cajaContenedora0.appendChild(cont_texto_cero)
+
+            cajaContenedora.appendChild(cajaContenedora0)
+        }
+
+        // ------------------------- //
         cajaContenedora.addEventListener("click", () => abrirProductoEmergente(producto));
 
         contenedorResultados.appendChild(cajaContenedora);
@@ -461,8 +488,8 @@ document.getElementById("boton_lima").addEventListener("click", () => {
 //document.getElementById("boton_sierras").addEventListener("click", () => {
 //    filtrarPorCategoria("sierras");
 //});
-document.getElementById("boton_clavo").addEventListener("click", () => {
-    filtrarPorCategoria("clavo");
+document.getElementById("boton_suministrosc").addEventListener("click", () => {
+    filtrarPorCategoria("suministrosc");
 });
 
 // --- --- Automotriz --- --- //
@@ -543,4 +570,7 @@ document.getElementById('boton_alternador').addEventListener("click", () => {
 });
 document.getElementById('boton_liks').addEventListener("click", () => {
     filtrarPorCategoria("liks");
+});
+document.getElementById('boton_otros').addEventListener("click", () => {
+    filtrarPorCategoria("otros");
 });
