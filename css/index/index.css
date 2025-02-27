@@ -46,20 +46,17 @@
     color: rgb(27, 30, 54);
 } 
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 420px) {
+
     #id_p__slogan__back {
-        padding-top: 20px;
+        padding-top: 60px;
         font-size: 1.35rem;
     }
     
     #id_p__slogan {
-        padding-top: 20px;
+        padding-top: 60px;
         font-size: 1.35rem;
     } 
-
-    .img_fondo_container_p {
-        top: 56vh;
-    }
 }
 
 /* --- Outline Fondo --- */

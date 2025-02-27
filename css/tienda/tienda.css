@@ -2,7 +2,7 @@
 
 .imagen_de_fondo {
     width: 100%;
-    min-height: 100vh;
+    height: 650px;
 
     background-image: url(../../media/img/design/movile/tienda/fondo_de_pantalla_krees_1.jpg);
     background-repeat: no-repeat;
@@ -11,6 +11,7 @@
     background-size: contain;
 
     position: fixed;
+    top: 0;
     z-index: -1;
 
     background-color: rgb(255, 255, 255);
@@ -33,7 +34,7 @@
 .cont__smooth {
     width: 100%;
     position: relative;
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(238, 238, 238, 0.856);
 
 }
 
@@ -109,7 +110,7 @@
 .section__categorias {
     width: 100%;
     min-height: 400px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(238, 238, 238, 0.856);
 
 }
 
@@ -178,7 +179,8 @@
 #contenedor_resultados {
     width: 100%;
     padding: 20px 10px;
-    background-color: rgba(119, 119, 119, 0.733);
+    background-color: rgba(238, 238, 238, 0.856);
+    /*/background-color: rgb(238, 238, 238);  No trasnparente*/ 
     overflow: hidden;
 
     display: grid;
@@ -203,8 +205,8 @@
     transition: transform 0.1s;
 }
 
-.producto-caja:hover {
-    transform: scale(1.07);
+.producto-caja:active {
+    transform: scale(1.05);
 }
 
 .caja-secundaria {
@@ -359,6 +361,9 @@
     overflow: hidden;
     padding: 20px;
     background-color: #f9f9f9d3;
+
+    border-top: 6px solid rgb(27, 30, 54);
+    border-bottom: 6px solid rgb(27, 30, 54);
 }
 
 .slider h2 {

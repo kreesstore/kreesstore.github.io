@@ -18,6 +18,14 @@
         <div class="imagen_de_fondo"></div>
         <!-- Outline Fondo -->
         <div class="outline_fondo"></div>
+        <!-- Ventana de Whatsapp-->
+        <div id="boton__whatsapp" class="cont__whatsapp">
+            <a id="boton__ir_a_whatsapp" href="https://wa.me/+536340979" target="_blank">
+                <button>Contactar via WhatsApp</button>
+                <img src="../../media/whatsapp.png" alt="whatsapp">
+                <div class="whatsapp_click"></div>
+            </a>
+        </div>
         <!-- Header -->
         <header class="header">
             <header class="header__container">
@@ -43,7 +51,7 @@
                         </label>
                         <!-- Lupa para realizar la Busqueda -->
                         <div class="header__barraBusqueda__lupa">
-                            <button type="submit" class="header__barraBusqueda__lupa__container">
+                            <button onclick="deslizar()" type="submit" class="header__barraBusqueda__lupa__container">
                                 <img src="../../media/img/design/universal/logotipos/lupa.svg" alt="Lupa">
                             </button>
                         </div>
@@ -210,7 +218,7 @@
                             <!-- Esfericas --> 
                             <button onclick="deslizar()" id="boton_esfericas_sup" class="categoria__boton" type="button">
                                 <div class="categoria__boton__img">
-                                    <img src="../../media/img/productos/miniaturas/automotriz/Esfericas.jpg" alt="Esfericas">
+                                    <img src="../../media/img/productos/miniaturas/automotriz/esfericas.jpg">
                                 </div>
                                 <div class="categoria__boton__data">
                                     <h3>Esfericas</h3>
@@ -349,7 +357,7 @@
         <!-- Footer -->
         <footer class="footer">
             <div class="footer__container">
-                <p>Imagenes en miniaturas proporcionadas por <a rel="noopener noreferrer" target="_blank" href="https://www.freepik.com">Freepik</a> | Del Author ranilson-arruda</p>
+                <p>Algunas Imagenes en miniaturas son proporcionadas por <a rel="noopener noreferrer" target="_blank" href="https://www.freepik.com">Freepik</a> | Del author ranilson-arruda</p>
                 <p>&copy;Todos los derechos recervados Krees 2025.</p>
             </div>
         </footer>

@@ -19,6 +19,14 @@
         <div class="imagen_de_fondo"></div>
         <!-- Outline Fondo -->
         <div class="outline_fondo"></div>
+        <!-- Ventana de Whatsapp-->
+        <div id="boton__whatsapp" class="cont__whatsapp">
+            <a id="boton__ir_a_whatsapp" href="https://wa.me/+536340979" target="_blank">
+                <button>Contactar via WhatsApp</button>
+                <img src="../../media/whatsapp.png" alt="whatsapp">
+                <div class="whatsapp_click"></div>
+            </a>
+        </div>
         <!-- Header -->
         <header class="header">
             <header class="header__container">
@@ -40,11 +48,11 @@
                     <form autocomplete="off" class="header__barraBusqueda__form">
                         <!-- Entrada de Texto -->
                         <label for="id_texto_busqueda" class="header__barraBusqueda__input">
-                            <input id="id_texto_busqueda" type="text" placeholder="Buscar...">
+                            <input onclick="redirirgir()" id="id_texto_busqueda" type="text" placeholder="Buscar...">
                         </label>
                         <!-- Lupa para realizar la Busqueda -->
                         <div class="header__barraBusqueda__lupa">
-                            <button type="button" class="header__barraBusqueda__lupa__container">
+                            <button onclick="redirirgir()" type="button" class="header__barraBusqueda__lupa__container">
                                 <img src="../media/img/design/universal/logotipos/lupa.svg" alt="Lupa">
                             </button>
                         </div>
@@ -145,5 +153,11 @@
         </footer>
     </div>
     <!-- Codigo JavaScript -->
+    <script>
+        function redirirgir(){
+            event.preventDefault();
+            window.location.href = "tienda/tienda.html"
+        }
+    </script>
 </body>
 </html>
