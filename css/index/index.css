@@ -10,7 +10,8 @@
     background-position: center;
     background-size: contain;
 
-    position: fixed;
+    position: relative;
+    top: 0;
     z-index: -1;
 
     display: flex;
@@ -21,8 +22,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 56vh;
+    position: fixed;
+    top: 53vh;
 }
 
 .img_fondo_container_p_secundario {
@@ -55,6 +56,10 @@
         padding-top: 20px;
         font-size: 1.35rem;
     } 
+
+    .img_fondo_container_p {
+        top: 56vh;
+    }
 }
 
 /* --- Outline Fondo --- */
