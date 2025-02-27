@@ -1,0 +1,119 @@
+/* --- Imagen de Fondo --- */
+
+.imagen_de_fondo {
+    width: 100%;
+    min-height: 100vh;
+
+    background-image: url(../../media/img/design/movile/index/fondo_de_pantalla_krees_1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+
+    position: fixed;
+    z-index: -1;
+
+    display: flex;
+    justify-content: center;
+}
+
+.img_fondo_container_p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 56vh;
+}
+
+.img_fondo_container_p_secundario {
+    width: fit-content;
+}
+
+#id_p__slogan__back {
+    padding-top: 10px;
+    font-size: 1.2rem;
+
+    position: relative;
+    color: rgb(216, 216, 216);
+}
+
+#id_p__slogan {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    color: rgb(27, 30, 54);
+} 
+
+@media screen and (min-width: 400px) {
+    #id_p__slogan__back {
+        padding-top: 20px;
+        font-size: 1.35rem;
+    }
+    
+    #id_p__slogan {
+        padding-top: 20px;
+        font-size: 1.35rem;
+    } 
+}
+
+/* --- Outline Fondo --- */
+
+.outline_fondo {
+    width: 100%;
+    min-height: 100vh;
+
+    background-color: rgba(238, 238, 238, 0.116);
+
+    position: fixed;
+    z-index: -1;
+}
+
+/* --- Fondo END --- */
+
+
+/* --- Section Hero --- */
+
+.section__hero {
+    min-height: 390px;
+}
+
+/* --- Section Hero END --- */
+
+
+/* --- Smooth --- */
+
+.cont__smooth {
+    width: 100%;
+    position: relative;
+}
+
+#id_smooth_back {
+    width: 100%;
+
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+#id_smooth {
+    width: 100%;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* --- Smooth END --- */
+
+
+/* --- Main --- */
+
+.main {
+    width: 100%;
+    min-height: 300px;
+
+    background-color: rgb(27, 30, 54);
+}
+
+/* --- Main END --- */

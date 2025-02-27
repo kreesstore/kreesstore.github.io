@@ -1,0 +1,368 @@
+/* Estilos Universales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipografias */
+
+@font-face {
+    font-family: 'ubuntu-regular';
+    src: url(tipografias/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'ubuntu-bold';
+    src: url(tipografias/Ubuntu-Bold.ttf);
+}
+
+/* Estilos del HTML y Body */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/* Estilos Basicos de los Elementos */
+
+h1 {
+    color: rgb(242, 129, 40);
+    font-size: 1.8rem;
+    font-weight: 800;
+    user-select: none;
+}
+
+h1 > span {
+    color: rgb(27, 30, 54);
+}
+
+ol, ul { list-style: none;}
+
+a { text-decoration: none;}
+
+img { max-width: 100%;}
+
+/* --- Contenedor Principal --- */
+
+.contenedor_principal {
+    width: 100%;
+    min-height: 120vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- Header --- */
+
+.header {
+    width: 100%;
+    min-height: 50px;
+
+    display: flex;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    background-image: radial-gradient(rgba(235, 235, 235, 0.89), rgb(235, 235, 235)),url(../media/img/design/movile/universales/fondo_header.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: contain;
+
+    z-index: 100;
+    animation: moverFondo 14s linear infinite;
+
+    border-bottom: 3px solid rgb(27, 30, 54);
+}
+
+@keyframes moverFondo {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -100% 0;
+    }
+}
+
+.header__container {
+    width: 100%;
+
+    padding: 0 4px 0 4px;
+
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: 
+    "header-logo header-barra header-menu"
+    "header-nav header-nav header-nav";
+}
+
+/* Logo */
+
+.header__logo {
+    grid-area: header-logo;
+}
+
+/* Barra de Navegacion */
+
+.header__nav {
+    grid-area: header-nav;
+    width: 100%;
+}
+
+.header__list {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.header__item__a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+
+    color: rgb(27, 30, 54);
+    font-family: serif;
+    font-size: 1.1rem;
+    user-select: none;
+}
+
+.header__item__a:active {
+    transform: scale(1.1);
+}
+
+.header__item__a > img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Barra de Busqueda */
+
+.header__barraBusqueda {
+    grid-area: header-barra;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.header__barraBusqueda__form {
+    width: 92%;
+
+    border-radius: 24px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(218, 218, 218);
+}
+
+.header__barraBusqueda__form:active {
+    outline: 2px solid rgb(209, 209, 209);
+}
+
+/* -INPUT- */
+
+.header__barraBusqueda__input {
+    flex: 1;
+    padding: 0 0 0 10px;
+}
+
+#id_texto_busqueda {
+    width: 100%;
+    font-size: 1rem;
+    padding: 4px 0 4px 4px;
+
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+/* -LUPA- */
+
+.header__barraBusqueda__lupa__container {
+    background-color: rgb(242, 129, 40);
+    padding: 2px 6px 2px 6px;
+
+    border: none;
+    outline: none;
+}
+
+.header__barraBusqueda__lupa__container > img {
+    width: 20px;
+    width: 20px;
+    user-select: none;
+}
+
+/* Menu Desplegable */
+
+#id_menu__desplegable {
+    grid-area: header-menu;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+#id_menu__desplegable > img {
+    width: 24px;
+    height: 24px;
+    user-select: none;
+}
+
+#id_menu__desplegable > img:active {
+    transform: scale(1.1);
+}
+
+/* Header Desplegable Container */
+
+.header__desplegable {
+    width: 100%;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 105;
+
+    display: none;
+}
+
+.header__desplegable__container {
+    width: 70%;
+    background-color: rgb(27, 30, 54);
+    border-right: 4px solid rgb(242, 129, 40);
+
+    padding: 6px 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header__desplegable__outline_back {
+    flex: 1;
+    backdrop-filter: blur(1px);
+    background-color: #0000001f;
+}
+
+/* Logo Desplegable */
+
+.header__des__logo {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.header__des__logo > h2 {
+    color: rgb(196, 196, 196);
+    font-size: 1.8rem;
+    font-weight: 800;
+    user-select: none;
+}
+
+/* NAV Desplegable */
+
+.header__des__list {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header__des__item {
+    background-color: rgb(226, 226, 226);
+    border-radius: 24px;
+    padding: 2px 10px;
+}
+
+.header__des__item:active {
+    transform: scale(1.01);
+}
+
+.header__des__item__a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+
+    color: rgb(27, 30, 54);
+    font-family: a;
+    font-size: 1.1rem;
+    user-select: none;
+}
+
+.header__des__item__a > img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Footer Header Desplegable */
+
+.header__desplegable__footer {
+    margin-top: auto;
+    color: #fff;
+}
+
+.header__desplegable__footer p {
+    user-select: none;
+}
+
+/* --- Header Queries --- */
+
+@media screen and (min-width: 850px) {
+
+    .header {
+        animation: moverFondo 40s linear infinite;
+    }
+
+    .header__container {
+        grid-template-columns: auto 1fr 450px auto;
+        grid-template-areas: 
+        "header-logo header-nav header-barra header-menu"
+    }
+
+    .header__desplegable__container {
+        width: 40%;
+    }
+}
+
+/* --- Header END --- */
+
+
+/* --- Footer --- */
+
+.footer {
+    background-color: #222;
+    margin-top: auto;
+}
+
+.footer__container {
+    padding: 40px 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+    color: #fff;
+}
+
+.footer__container p {
+    font-size: 0.8rem;
+}
