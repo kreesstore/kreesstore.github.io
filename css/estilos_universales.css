@@ -92,7 +92,7 @@ img { max-width: 100%;}
 .header__container {
     width: 100%;
 
-    padding: 0 4px 0 4px;
+    padding: 0 5px 0 5px;    
 
     display: grid;
     align-items: center;
@@ -214,6 +214,9 @@ img { max-width: 100%;}
     background: transparent;
     border: none;
     outline: none;
+
+    display: flex;
+    align-items: center;
 }
 
 #id_menu__desplegable > img {

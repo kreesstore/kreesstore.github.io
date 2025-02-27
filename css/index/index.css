@@ -2,11 +2,10 @@
 
 .imagen_de_fondo {
     width: 100%;
-    min-height: 100vh;
+    height: 650px;
 
     background-image: url(../../media/img/design/movile/index/fondo_de_pantalla_krees_1.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     background-size: contain;
 
