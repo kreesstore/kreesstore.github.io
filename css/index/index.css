@@ -15,6 +15,7 @@
 
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .img_fondo_container_p {
@@ -22,7 +23,7 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    top: 53vh;
+    margin-top: 80px;
 }
 
 .img_fondo_container_p_secundario {
