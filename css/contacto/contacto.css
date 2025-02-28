@@ -53,12 +53,23 @@ body {
 
 /*IMG*/
 
+
+
 .punto__AP__img__container {
     width: 100%;
-    height: 160px;
+    height: 180px;
     display: flex;
     justify-content: center;
+    position: relative;
 }
+
+.imagen_punto_fondo {
+    position: absolute;
+    min-width: 100%;
+    max-height: 100%;   
+    backdrop-filter: blur(2);
+}
+
 
 .punto__AP__img__container__sec {
     width: 90%;
@@ -70,12 +81,32 @@ body {
     align-items:  center;
 }
 
-.punto__AP__img__container__sec p {
-    font-size: 1.4rem;
-    font-weight: 700;
-    text-transform: uppercase;
 
-    color: #fff;
+
+.punto__AP__img__container__sec-fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+.imagen_punto_fondo_outline {
+    width: 100%;
+    height: 180px;
+    backdrop-filter: blur(10px);
+    position: relative;
+    z-index: 1;
+}
+
+.punto__AP__img__container__sec {
+    width: 100%;
+}
+
+.imagen_punto_alante {
+    max-height: 100%;
+    position: relative;
+    z-index: 5;
 }
 
 
@@ -108,6 +139,8 @@ body {
 .punto__AP__data__container p {
     font-size: 1.2rem;
 }
+
+
 
 .punto__AP__data__container span {
     font-weight: 700;
