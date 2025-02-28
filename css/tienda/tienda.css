@@ -119,6 +119,15 @@
     display: none;
 }
 
+.categoria__ferreteria {
+    width: 100%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    overflow: hidden;
+    padding: 10px 4px;
+}
+
 /* Botones de categorias */
 
 .categoria__automotriz {

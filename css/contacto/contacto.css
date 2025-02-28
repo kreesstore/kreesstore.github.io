@@ -1,0 +1,135 @@
+body {
+
+    background-image: url(../../media/img/design/movile/info/fondo_de_pantalla_krees_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+
+    object-position: center;
+
+    background-color: rgb(27, 30, 54);
+}
+
+.outline_fondo {
+    width: 100%;
+    min-height: 100vh;
+
+    position: fixed;
+    z-index: -1;
+    background: radial-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.89));
+
+}
+
+/* Main */
+
+.main__container {
+    width: 100%;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.seccion__punto__AP fieldset {
+    border: 2px solid rgb(242, 129, 40);
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.seccion__punto__AP legend {
+    color: rgb(242, 129, 40);
+    font-size: 1.4rem;
+    padding: 4px;
+
+    font-family: serif;
+}
+
+/* Elementos */
+
+/*IMG*/
+
+.punto__AP__img__container {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.punto__AP__img__container__sec {
+    width: 90%;
+    height: 100%;
+    background-color: darkblue;
+
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+
+.punto__AP__img__container__sec p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+
+
+
+/*DATA*/
+
+.punto__AP__data__container {
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.punto__AP__data__container > div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.punto__cont_img_data {
+    width: 45px;
+    min-width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.punto__AP__data__container p {
+    font-size: 1.2rem;
+}
+
+.punto__AP__data__container span {
+    font-weight: 700;
+    color: rgb(242, 129, 40);
+}
+
+/* Redes */
+
+.punto__AP__redes {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.punto__redes {
+    width: 54px;
+    min-width: 54px;
+    height: 54px;
+    padding: 4px;
+}
+
+.divisor {
+    width: 100%;
+    border-bottom: 4px dashed #fff;
+}

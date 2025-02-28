@@ -330,7 +330,7 @@ function mostrarSliderMejoresVentas() {
     // Filtra productos que tengan ventas registradas y los ordena de mayor a menor
     let productosConVentas = productosTotales.filter(producto => producto.ventas && producto.ventas > 0);
     productosConVentas.sort((a, b) => b.ventas - a.ventas);
-    let mejoresProductos = productosConVentas.slice(0, 12);
+    let mejoresProductos = productosConVentas.slice(0, 10);
     
     const sliderTrack = document.getElementById("slider-track");
     sliderTrack.innerHTML = "";
