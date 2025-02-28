@@ -71,7 +71,7 @@ let productosTotales = [
 
     new Producto(401, "Aceite", "7.12", "9 957.30", "15W40 Diesel API CH-4(5L)", "aceites", 15, "../../media/img/productos/automotriz/aceites/petroleo.jpg", 'liquido', 20),
     new Producto(402, "Aceite", "7.12", "12 727.95.59", "15W40 Gasolina API SL(5L)", "aceites", 5, "../../media/img/productos/automotriz/aceites/petroleo.jpg", 'liquido', 10),
-    new Producto(403, "Aceite de Transmision Automatica", "11.57", "2 993.41", "CVT (1L)", "aceites", 12, "../../media/img/productos/automotriz/aceites/aceite_de_trasmicion_automatica.jpg", 'liquido', 25,)
+    new Producto(403, "Aceite de Transmision Automatica", "11.57", "2 993.41", "CVT (1L)", "aceites", 12, "../../media/img/productos/automotriz/aceites/aceite_de_trasmicion_automatica.jpg", 'liquido', 25,),
     new Producto(404, "Liquido de Freno", "12.11", "3 386.41", "(500ml)", "aceites", 0, "../../media/img/productos/automotriz/aceites/liquido_de_frenos.jpg", 'liquido', 11),
     new Producto(405, "Grasa de Calcio Multiuso", "9.62", "2 691.28", "MP3 (1Kg)", "aceites", 9, "../../media/img/productos/automotriz/aceites/grasa.jpg", "liquido", 15),
 
