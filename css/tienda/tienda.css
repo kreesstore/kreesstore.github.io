@@ -121,7 +121,7 @@
 
 .categoria__ferreteria {
     width: 100%;
-    display: grid;
+    display: none;
     gap: 8px;
     grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
     overflow: hidden;
