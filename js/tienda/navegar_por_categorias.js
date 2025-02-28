@@ -1,5 +1,7 @@
+const ir_main = document.getElementById('id_main');
+
 function deslizar(){
-    document.getElementById('id_main').scrollIntoView({behavior: "smooth"})
+    ir_main.scrollIntoView({behavior: "smooth"});
 }
 
 function categoria_ferreteria(){

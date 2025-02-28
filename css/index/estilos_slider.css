@@ -26,6 +26,8 @@
 
 .slider-track .producto-caja {
     max-width: 160px;
+    min-width: 160px;
+
 }
 
 .slider-btn {
