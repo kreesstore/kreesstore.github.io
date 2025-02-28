@@ -71,7 +71,7 @@ let productosTotales = [
 
     new Producto(401, "Aceite", "7.12", "9 957.30", "15W40 Diesel API CH-4(5L)", "aceites", 15, "../../media/img/productos/automotriz/aceites/petroleo.jpg", 'liquido', 20),
     new Producto(402, "Aceite", "7.12", "12 727.95.59", "15W40 Gasolina API SL(5L)", "aceites", 5, "../../media/img/productos/automotriz/aceites/petroleo.jpg", 'liquido', 10),
-    new Producto(403, "Aceite de Transmision Automatica", "11.57", "2 993.41", "CVT (1L)", "aceites", 12, "../../media/img/productos/automotriz/aceites/aceite_de_trasmicion_automatica.jpg"), 'liquido', 25,
+    new Producto(403, "Aceite de Transmision Automatica", "11.57", "2 993.41", "CVT (1L)", "aceites", 12, "../../media/img/productos/automotriz/aceites/aceite_de_trasmicion_automatica.jpg", 'liquido', 25,)
     new Producto(404, "Liquido de Freno", "12.11", "3 386.41", "(500ml)", "aceites", 0, "../../media/img/productos/automotriz/aceites/liquido_de_frenos.jpg", 'liquido', 11),
     new Producto(405, "Grasa de Calcio Multiuso", "9.62", "2 691.28", "MP3 (1Kg)", "aceites", 9, "../../media/img/productos/automotriz/aceites/grasa.jpg", "liquido", 15),
 
@@ -214,7 +214,7 @@ let productosTotales = [
     new Producto(104, "Filtro De Aire", "$", "2 108.48", "HYUNDAY", "filtros", 2, "../../media/img/productos/automotriz/filtros/aire.jpg"),
     new Producto(105, "Filtro Diesel", "3.60$", "1 187.02", "MITSUBISHI L200/L300", "filtros", 2, "../../media/img/productos/automotriz/filtros/dieselL300.jpg"),
     new Producto(106, "Filtro Diesel", "3.50$", "1 155.01", "NISSAN SD23/TD27(02N10)", "filtros", 10, "../../media/img/productos/automotriz/filtros/dieselTD27.jpg"),
-    new Producto(107, "Filtro Diesel", "3.49$", "1 152.42", "TOYOTA 2L/3L", "filtros", 22, "./../media/img/productos/automotriz/filtros/toyota3L.jpg"),
+    new Producto(107, "Filtro Diesel", "3.49$", "1 152.42", "TOYOTA 2L/3L", "filtros", 22, "../../media/img/productos/automotriz/filtros/toyota3L.jpg"),
     new Producto(108, "Filtro Diesel", "3.50$", "1 159.91", "MITSUBISHI CANTER/ROSA 4D30", "filtros", 28, "../../media/img/productos/automotriz/filtros/mitsu33.jpg"),
     
     // ------------------------------------------------------------------------------------------------ //

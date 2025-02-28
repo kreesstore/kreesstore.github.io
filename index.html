@@ -10,6 +10,7 @@
     <title>Krees</title>
     <link rel="stylesheet" href="css/estilos_universales.css">
     <link rel="stylesheet" href="css/index/index.css">
+    <link rel="stylesheet" href="css/index/estilos_slider.css">
     <script src="js/menu_desplegable_header.js"></script>
 </head>
 <body>
@@ -112,7 +113,14 @@
         <!-- Main -->
         <main class="main">
             <div class="main__container">
-
+                <section class="slider slider-recientes">
+                    <h2>Nuevos Productos Disponibles</h2>
+                    <div class="slider-container" id="slider-container-recientes">
+                      <div class="slider-track" id="slider-track-recientes">
+                        <!-- Los productos se inyectarán aquí -->
+                      </div>
+                    </div>
+                  </section>
             </div>
         </main>
         <!-- Footer -->
@@ -124,6 +132,7 @@
     </div>
     <!-- Codigo JavaScript -->
     <script src="js/index/slogan.js"></script>
+    <script src="js/index/slider_recientes.js"></script>
     <script>
         function redirirgir(){
             event.preventDefault();
