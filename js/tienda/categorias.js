@@ -97,8 +97,8 @@ let productosTotales = [
 
     // Anillos --- anillos
 
-    new Producto(1301, "Anillos", "$", "8 868.33", "STD TOYOTA 3L", "anillos", 0, "../../media/img/productos/automotriz/anillos/1.jpg"),
-    new Producto(1302, "Anillos", "$", "8 323.33", "STD TOYOTA 2L(5929)", "anillos", 0, "../../media/img/productos/automotriz/anillos/2.jpg"),
+    new Producto(1301, "Anillos", "$", "8 868.33", "STD TOYOTA 3L", "anillos", 5, "../../media/img/productos/automotriz/anillos/1.jpg"),
+    new Producto(1302, "Anillos", "$", "8 323.33", "STD TOYOTA 2L(5929)", "anillos", 5, "../../media/img/productos/automotriz/anillos/2.jpg"),
 
     
     // ------------------------------------------------------------------------------------------------ //
@@ -122,7 +122,7 @@ let productosTotales = [
 
     new Producto(1801, "Metal Biela 4D", "31.60", "10 428.02", 'MITSUBISHI STD 4D56(M"2D)', "biela", 1, "../../media/img/productos/automotriz/bielas/mitsu.jpg"),
     new Producto(1802, "Juego de Metal Apoyo", "$", "4 421.98", 'No Registrada', "biela", 2, "../../media/img/productos/automotriz/bielas/C190.jpg"),
-    new Producto(1803, "Juego de Metal de Biela C240 STD", "$", "3 979.80", 'Glow Plug', "biela", 0, "../../media/img/productos/automotriz/bielas/C240.jpg"),
+    new Producto(1803, "Juego de Metal de Biela C240 STD", "$", "3 979.80", 'Glow Plug', "biela", 6, "../../media/img/productos/automotriz/bielas/C240.jpg"),
     new Producto(1804, "Metal de Bancada", "$", "3 537.59", 'NISSAN TD/27STD', "biela", 1, "../../media/img/productos/automotriz/bielas/nissan.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
@@ -151,7 +151,7 @@ let productosTotales = [
 
     // Correas --- correas
 
-    new Producto(1001, "Correa", "7.86$", "1 160.30", "No Registrada", "correas", 0, "../../media/img/productos/automotriz/correas/correa.jpg"),
+    new Producto(1001, "Correa", "7.86$", "1 160.30", "No Registrada", "correas", 4, "../../media/img/productos/automotriz/correas/correa.jpg"),
     new Producto(1002, "Correa", "$", "3 537.57", "LD-20", "correas", 10, "../../media/img/productos/automotriz/correas/LD20.jpg"),
     new Producto(1003, "Correa de Tiempo T99", "$", "2 302.63", "MITSUBISHI", "correas", 10, "../../media/img/productos/automotriz/correas/DeTiempoT99.jpg"),
     new Producto(1002, "Correa", "$", "3 401.82$", "A-29", "correas", 3, "../../media/img/productos/automotriz/correas/A29.jpg"),
@@ -223,7 +223,7 @@ let productosTotales = [
 
     // Frenos 
     new Producto(501, "Taco de Freno", "$", "5 077.34", "TOYOTA HIACE", "frenos", 2),
-    new Producto(502, "Banda de Freno de Emergencia", "67.58", "8 110.00$", "No Registrado", "frenos", 2, "../../media/img/productos/automotriz/freno/Lumii_20250115_114345681.jpg"),
+    new Producto(502, "Banda de Freno de Emergencia", "67.58", "8 110.00$", "No Registrado", "frenos", 2, "../../media/img/productos/automotriz/frenos/HIACE.jpg"),
     new Producto(503, "Juego de Banda de Freno", "22.97", "7 692.57", "TRUCK", "frenos", 2),
 
     // ------------------------------------------------------------------------------------------------ //

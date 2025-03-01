@@ -63,8 +63,8 @@
     cursor: pointer;
 }
 
-.producto-caja:hover {
-    transform: scale(1.07);
+.producto-caja:active {
+    transform: scale(1.06);
 }
 
 .caja-secundaria {

@@ -82,6 +82,7 @@
     line-height: 1;
     padding-bottom: 10px;
     color: rgb(242, 129, 40);
+    user-select: none;
 }
 
 /* Botones */
@@ -99,6 +100,7 @@
     padding: 4px 6px;
     background-color: #f0f7ff;
     border-radius: 6px;
+    user-select: none;
 }
 
 /* Elegir Categoria END */
@@ -148,6 +150,7 @@
     background-color: transparent;
     border: none;
     outline: none;
+    user-select: none;
 
     transition: transform 0.1s;
 }
@@ -212,6 +215,7 @@
     align-items: end;
 
     transition: transform 0.1s;
+    background-color: rgba(112, 112, 112, 0.486);
 }
 
 .producto-caja:active {
@@ -379,6 +383,7 @@
     margin-bottom: 15px;
     font-size: 1.5em;
     color: #333;
+    user-select: none;
 }
 
 .slider-container {

@@ -25,6 +25,8 @@ body {
 
 .main__container {
     width: 100%;
+    max-width: 1100px;
+    margin: auto;
 
     padding: 10px;
 
@@ -57,19 +59,30 @@ body {
 
 .punto__AP__img__container {
     width: 100%;
-    height: 180px;
+    max-width: 800px;
+    height: 190px;
     display: flex;
     justify-content: center;
     position: relative;
+    margin: auto;
 }
 
-.imagen_punto_fondo {
-    position: absolute;
-    min-width: 100%;
-    max-height: 100%;   
-    backdrop-filter: blur(2);
-}
+@media screen and (min-width: 700px) {
+        
+    .punto__AP__img__container {
+        width: 100%;
+        max-width: 800px;
+        height: 240px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+    }
 
+    .seccion__punto__AP fieldset {
+        padding: 20px;
+    }
+}
 
 .punto__AP__img__container__sec {
     width: 90%;
@@ -81,34 +94,39 @@ body {
     align-items:  center;
 }
 
+.punto__AP__img__container__sec__img__fondo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 
+.punto__AP__img__container__sec__img__fondo > img {
+    height: 100%;
+    min-width: 100%;
+}
 
-.punto__AP__img__container__sec-fondo {
+.punto__AP__img__outline {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(4px);
+}
+
+.punto__AP__img__container__sec__img__alante {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    min-height: 100%;
-}
 
-.imagen_punto_fondo_outline {
-    width: 100%;
-    height: 180px;
-    backdrop-filter: blur(10px);
-    position: relative;
-    z-index: 1;
-}
-
-.punto__AP__img__container__sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     width: 100%;
 }
 
-.imagen_punto_alante {
+.punto__AP__img__container__sec__img__alante img {
     max-height: 100%;
-    position: relative;
-    z-index: 5;
 }
-
 
 
 /*DATA*/
