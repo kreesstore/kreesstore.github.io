@@ -13,19 +13,23 @@ class Producto {
     }
 }
 
-document.querySelectorAll('.categoria__boton').forEach(link =>{
-    link.addEventListener('click', function(event){
-        event.preventDefault();
+function smoothScroll(target) {
+    const targetElement = document.getElementById(target);
+    const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+    window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth'
+    });
+}
 
-        const targetID = this.getAttribute('href').substring(1);
+document.querySelectorAll('.categoria__boton').forEach(link => {
+    link.addEventListener('click', function(event) {
+        event.preventDefault(); // Evita la recarga de la página
+        const targetId = this.getAttribute('href').substring(1); // Obtiene el ID del href
+        smoothScroll(targetId);
+    });
+});
 
-        const targetSection = document.getElementById(targetID);
-
-        if(targetSection) {
-            targetSection.scrollIntoView({behavior: 'smooth'});
-        }
-    })
-})
 
 
 // Lista global de productos
