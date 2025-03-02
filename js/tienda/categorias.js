@@ -11,8 +11,21 @@ class Producto {
       this.otros_nombres = otros_nombres;
       this.ventas = ventas;
     }
-  }
+}
 
+document.querySelectorAll('.categoria__boton').forEach(link =>{
+    link.addEventListener('click', function(event){
+        event.preventDefault();
+
+        const targetID = this.getAttribute('href').substring(1);
+
+        const targetSection = document.getElementById(targetID);
+
+        if(targetSection) {
+            targetSection.scrollIntoView({behavior: 'smooth'});
+        }
+    })
+})
 
 
 // Lista global de productos
@@ -677,3 +690,5 @@ document.getElementById('boton_liks').addEventListener("click", () => {
 document.getElementById('boton_otros').addEventListener("click", () => {
     filtrarPorCategoria("otros");
 });
+
+
