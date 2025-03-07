@@ -59,18 +59,18 @@ let productosTotales = [
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
 
-    // Sierras --- sierras
+    // Pegamentos --- pegamento
 
-    // new Producto(201, "Sierras", "6.41$", "1 761.72$", "HYUNDAY", "sierras", 1),
+    new Producto(201, "Cola Blanca", "$", "No Registrado", "No Registrado", "pegamento", 5, "../../media/img/productos/ferreteria/pegamento/cola_blanca.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
 
-    // SuministrosC --- suministrosc
+    // Tornillos --- tornillos
 
     new Producto(301, "Clavo de Alambre", "$", "32 574.43", "No Registrado", "suministrosc", 0),
-    new Producto(302, "Tornillos", "$", "2 917.36$", "No Registrado", "tornillos", 5, "../../media/img/productos/ferreteria/tornillos/tornillos.jpg"),
+    new Producto(302, "Tornillos", "$", "2 917.36", "No Registrado", "tornillos", 5, "../../media/img/productos/ferreteria/tornillos/tornillos.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -156,11 +156,13 @@ let productosTotales = [
 
     // Bujias --- bujias
 
-    new Producto(801, "Calentador de Bujias", "$", "1 150.91", "TOYOTA 5L", "bujias", 2, "../../media/img/productos/automotriz/bujias/toyota.jpg"),
+    new Producto(801, "Calentador de Bujias", "$", "1 394.71", "TOYOTA 5L", "bujias", 100, "../../media/img/productos/automotriz/bujias/toyota.jpg"),
     new Producto(802, "Bujia", "$", "1 365.61", "LD-20", "bujias", 2, "../../media/img/productos/automotriz/bujias/LD20.jpg"),
     new Producto(803, "Calentador de Bujias", "3.57$", "1 177.76", "MITSUBISHI 4D 5612V(PEO7)", "bujias", 2, "../../media/img/productos/automotriz/bujias/mitsubishi.jpg"),
     new Producto(804, "Bujia", "$", "1 185.73", "itsuELF LD-20", "bujias", 68, "../../media/img/productos/automotriz/bujias/itsuELF.jpg"),
     new Producto(805, "Bujia", "$", "1 185.73", "itsu4J LD-20", "bujias", 68, "../../media/img/productos/automotriz/bujias/itsu4J.jpg"),// t 2l
+
+    new Producto(806, "Calentador de Bujias", "$", "1 323.27", "TOYOTA 2L/3l 11v", "bujias", 200, "../../media/img/productos/automotriz/bujias/calentador_2L_3L_11v.jpg"),// t 2l
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -233,7 +235,8 @@ let productosTotales = [
     new Producto(106, "Filtro Diesel", "3.50$", "1 155.01", "NISSAN SD23/TD27(02N10)", "filtros", 10, "../../media/img/productos/automotriz/filtros/dieselTD27.jpg"),
     new Producto(107, "Filtro Diesel", "3.49$", "1 152.42", "TOYOTA 2L/3L", "filtros", 22, "../../media/img/productos/automotriz/filtros/toyota3L.jpg"),
     new Producto(108, "Filtro Diesel", "3.50$", "1 159.91", "MITSUBISHI CANTER/ROSA 4D30", "filtros", 28, "../../media/img/productos/automotriz/filtros/mitsu33.jpg"),
-    
+    new Producto(109, "Filtro de Aire Acondicionado", "3.50$", "2 616.95", "DAEWOO Mega 250 FC", "filtros", 6, "../../media/img/productos/automotriz/filtros/filtro_arieacondicionado.jpg"),
+
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
@@ -263,6 +266,10 @@ let productosTotales = [
     new Producto(1904, "Manguera Corrugada 38 x 500", "11.26$", "4 778.00", "No Registrado", "manguera", 10, "../../media/img/productos/automotriz/mangueras/larga.jpg"),
     new Producto(1905, "Manguera de Freno", "11.26$", "1 606.27", "No Registrado", "manguera", 2, "../../media/img/productos/automotriz/mangueras/deFreno.jpg"),
     
+    new Producto(1905, "Manguera de Freno HID delantero", "11.26$", "1 789.25", "No Registrado", "manguera", 2, "../../media/img/productos/automotriz/mangueras/freno_hid_delantero.jpg"),
+    new Producto(1905, "Manguera de Freno HID trasero", "11.26$", "1 817.25", "No Registrado", "manguera", 2, "../../media/img/productos/automotriz/mangueras/freno_hid_trasero.jpg"),
+
+
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
@@ -315,7 +322,7 @@ let productosTotales = [
     
     new Producto(701, "Tapa de BLOCK", "$", "3 733.98", "4D-30", "juntas", 1, "../../media/img/productos/automotriz/sellos/juntaBlock4D.jpg", 'tapa', 6),
     new Producto(702, "Tapa de BLOCK", "$", "4 078.62", "LD-20", "juntas", 2, "../../media/img/productos/automotriz/sellos/juntaBlockLD20.jpg", 'tapa', 7,),
-    new Producto(703, "Junta de Inyectores", "0.64$", "175.37", "No Registrado", "juntas", 0),
+    new Producto(703, "Junta de Inyectores", "0.64$", "175.37", "No Registrado", "juntas", 4),
     
     new Producto(706, "Sello de Aceite C/V", "3.99$", "1 096.09", "No Registrado", "juntas", 2, "../../media/img/productos/automotriz/sellos/aceite.jpg", 'seyo', 8),
     new Producto(707, "Junta", "0.64$", "11 687.30", "Toyota 2L", "juntas", 2),
@@ -694,5 +701,7 @@ document.getElementById('boton_liks').addEventListener("click", () => {
 document.getElementById('boton_otros').addEventListener("click", () => {
     filtrarPorCategoria("otros");
 });
-
+document.getElementById('boton_pegamento').addEventListener("click", () => {
+    filtrarPorCategoria("pegamento");
+});
 
