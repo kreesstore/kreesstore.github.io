@@ -15,7 +15,7 @@ class Producto {
 
 
 let listaDeNuevosProductos = [
-    new Producto(10, "Aceite de Transmision Automatica", "11.57", "2 993.41", "CVT (1L)", "aceites", 12, "media/img/productos/automotriz/aceites/aceite_de_trasmicion_automatica.jpg", 'liquido', 25,),
+    new Producto(10, "Aceite de Transmisión Automática", "11.57", "2 993.41", "CVT (1L)", "aceites", 12, "media/img/productos/automotriz/aceites/aceite_de_trasmicion_automatica.jpg", 'liquido', 25,),
 
 
     new Producto(20, "Alternador", "1", "169 581.68", "Toyota", "alternador", 1, "media/img/productos/automotriz/alternadores/alternador_de_TOYOTA.jpg"),
