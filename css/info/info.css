@@ -36,12 +36,14 @@
 
 .section__header__info__1 {
     margin: auto;
-    max-width: 90%;
+    max-width: 600px;
 }
 
 /* 2 */
 
 .section__header__info__2 {
+    max-width: 650px;
+    margin: auto;
     font-size: 1.5rem;
 
     background-image: radial-gradient(rgba(255, 255, 255, 0.89), rgba(255, 255, 255, 0.815)),url(../../media/img/design/movile/info/fondo_acerca_de_krees_2.jpg);

@@ -59,7 +59,7 @@ function mostrarProductos(productos) {
         let cajaSecundaria = document.createElement("div");
         cajaSecundaria.classList.add("caja-secundaria");
 
-        cajaSecundaria.innerHTML = `<p><span class="producto_span">Producto</span> ${producto.nombre}</p>
+        cajaSecundaria.innerHTML = `<p><span class="producto_span"></span> ${producto.nombre}</p>
                                      <p><span class="producto_span">Marca</span> ${producto.marca}</p>
                                       <p><span class="producto_span">Precio</span> $${producto.precio_cup}</p>`;
 

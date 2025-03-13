@@ -129,10 +129,10 @@ let productosTotales = [
     //new Producto(1, "Batería 12V 110AH", "210.00", "83 351.62", "Cobelak", "baterias", 0, "../IMG/Productos/Alt/bateria.jpg"),
     new Producto(1, "Batería 12V 75AH", ".00", "57 384.40", "Cobelak", "baterias", 6, "../../media/img/productos/automotriz/baterias/75AH.jpg", "batery", 28),
 
-    new Producto(1, "Batería de Moto 12V 14AH", ".00", "20 542.89", "Cobelak", "baterias", 1, "../../media/img/productos/automotriz/baterias/", "batery"),
-    new Producto(1, "Batería de Moto 12V 18AH", ".00", "23 853.41", "Cobelak", "baterias", 2, "../../media/img/productos/automotriz/baterias/", "batery"),
-    new Producto(1, "Batería de Moto 12V 19AH", ".00", "21 362.63", "Cobelak", "baterias", 6, "../../media/img/productos/automotriz/baterias/", "batery"),
-    new Producto(1, "Batería de Moto 12V 20AH", ".00", "20 083.75", "Cobelak", "baterias", 2, "../../media/img/productos/automotriz/baterias/", "batery"),
+    new Producto(1, "Batería de Moto 12V 10AH", ".00", "21 362.63", "KM Batteries", "baterias", 6, "../../media/img/productos/automotriz/baterias/moto_14AH.jpg", "batery"),
+    new Producto(1, "Batería de Moto 12V 14AH", ".00", "20 542.89", "KM Batteries", "baterias", 1, "../../media/img/productos/automotriz/baterias/moto_14AH.jpg", "batery"),
+    new Producto(1, "Batería de Moto 12V 18AH", ".00", "23 853.41", "KM Batteries", "baterias", 2, "../../media/img/productos/automotriz/baterias/moto_18AH.jpg", "batery"),
+    new Producto(1, "Batería de Moto 12V 20AH", ".00", "20 083.75", "KM Batteries", "baterias", 2, "../../media/img/productos/automotriz/baterias/moto_20AH.jpg", "batery"),
 
 
     // ------------------------------------------------------------------------------------------------ //
@@ -184,15 +184,15 @@ let productosTotales = [
     new Producto(1002, "Correa", "$", "5 987.25", "42", "correas", 3, "../../media/img/productos/automotriz/correas/42.jpg"),
     new Producto(1002, "Correa", "$", "7 610.61", "2L T 130", "correas", 2, "../../media/img/productos/automotriz/correas/2lT130.jpg"),
     
-    // new Producto(1011, "Correa Trapezoidal (Lada alternador Yamz)", "0", "1 662.32", "95-X9-60-0", "correas", 20, "../../media/img/productos/automotriz/correas/"),
+    new Producto(1011, "Correa Trapezoidal (Lada alternador Yamz)", "0", "1 662.32", "9.5-X-960", "correas", 20, "../../media/img/productos/automotriz/correas/9_5x960_trapezoidal.jpg"),
     // new Producto(1012, "Correa Trapezoidal (Lada alternador Yamz)", "0", "2 186.11", "13-X9-40-0", "correas", 10, "../../media/img/productos/automotriz/correas/"),
-    // new Producto(1013, "Correa Trapezoidal (Lada alternador Yamz)", "0", "2 186.11", "13-X9-50-0", "correas", 40, "../../media/img/productos/automotriz/correas/"),
-    // new Producto(1014, "Correa Trapezoidal (Lada alternador Yamz)", "0", "2 242.06", "13-X9-65-0", "correas", 10, "../../media/img/productos/automotriz/correas/"),
+    new Producto(1013, "Correa Trapezoidal (Lada alternador Yamz)", "0", "2 186.11", "13-X-950-0", "correas", 40, "../../media/img/productos/automotriz/correas/13x950_trapezoidal.jpg"),
+    new Producto(1014, "Correa Trapezoidal (Lada alternador Yamz)", "0", "2 208.49", "13-X-965-0", "correas", 10, "../../media/img/productos/automotriz/correas/13x965_trapezoidal.jpg"),
 
-    // new Producto(1015, "Correa Trapezoidal (Equipos Ligeros)", "0", "1 730.87", "13-X9-90-0", "correas", 10, "../../media/img/productos/automotriz/correas/"),
+    new Producto(1015, "Correa Trapezoidal (Equipos Ligeros)", "0", "1 730.87", "13-X-990", "correas", 10, "../../media/img/productos/automotriz/correas/13x990_trapezoidal.jpg"),
 
-    // new Producto(1016, "Correa Trapezoidal (Hyundai Mitsubishi)", "0", "2 242.06", "13-X1-00-0", "correas", 10, "../../media/img/productos/automotriz/correas/"),
-    // new Producto(1017, "Correa Trapezoidal (Hyundai Mitsubishi)", "0", "2 309.20", "13-X1-04-0", "correas", 30, "../../media/img/productos/automotriz/correas/"),
+    new Producto(1016, "Correa Trapezoidal (Hyundai Mitsubishi)", "0", "2 242.06", "13-X-1000", "correas", 10, "../../media/img/productos/automotriz/correas/13x1000_trapezoidal.jpg"),
+    new Producto(1017, "Correa Trapezoidal (Hyundai Mitsubishi)", "0", "2 309.20", "13-X-1040", "correas", 30, "../../media/img/productos/automotriz/correas/13x1040_trapezoidal.jpg"),
     // new Producto(1018, "Correa Trapezoidal (Hyundai Mitsubishi)", "0", "2 320.39", "13-X1-05-0", "correas", 10, "../../media/img/productos/automotriz/correas/"),
     // new Producto(1019, "Correa Trapezoidal (Hyundai Mitsubishi)", "0", "2 342.77", "13-X1-07-5", "correas", 20, "../../media/img/productos/automotriz/correas/"),
 
@@ -204,22 +204,22 @@ let productosTotales = [
     // new Producto(1025, "Correa Trapezoidal (Equipos Ligeros)", "0", "1 566.56", "13-X1-25-0", "correas", 10, "../../media/img/productos/automotriz/correas/"),
     // new Producto(1026, "Correa Trapezoidal (Equipos Ligeros)", "0", "1 588.94", "13-X1-27-0", "correas", 10, "../../media/img/productos/automotriz/correas/"),
     // new Producto(1027, "Correa Trapezoidal (Equipos Ligeros)", "0", "1 588.94", "13-X1-27-5", "correas", 10, "../../media/img/productos/automotriz/correas/"),
-    // new Producto(1028, "Correa Trapezoidal (Equipos Ligeros)", "0", "1 611.32", "13-X1-29-0", "correas", 10, "../../media/img/productos/automotriz/correas/"),
+    new Producto(1028, "Correa Trapezoidal (Equipos Ligeros)", "0", "1 611.32", "13-X-1290", "correas", 10, "../../media/img/productos/automotriz/correas/13x1290_trapezoidal.jpg"),
     // new Producto(1029, "Correa Trapezoidal (Equipos Ligeros)", "0", "1 611.32", "13-X1-29-5", "correas", 10, "../../media/img/productos/automotriz/correas/"),
     // new Producto(1030, "Correa Trapezoidal (Equipos Ligeros)", "0", "1 622.51", "13-X1-30-0", "correas", 4, "../../media/img/productos/automotriz/correas/"),
-    // new Producto(1031, "Correa Trapezoidal (Compresores Equipos I)", "0", "1 745.60", "13-X1-40-0", "correas", 4, "../../media/img/productos/automotriz/correas/"),
+    new Producto(1031, "Correa Trapezoidal (Compresores Equipos I)", "0", "1 745.60", "13-X-1400", "correas", 4, "../../media/img/productos/automotriz/correas/13x1400_trapezoidal.jpg"),
 
-    // new Producto(1032, "Correa Trapezoidal (Bomba de Agua Yamz)", "0", "2 477.04", "17-X8-00-0", "correas", 4, "../../media/img/productos/automotriz/correas/"),
-    // new Producto(1033, "Correa Trapezoidal (Camiones Howo)", "0", "2 555.37", "17-X8-38-0", "correas", 4, "../../media/img/productos/automotriz/correas/"),
-    // new Producto(1034, "Correa Trapezoidal (Camiones Howo)", "0", "2 577.75", "17-X8-50-0", "correas", 4, "../../media/img/productos/automotriz/correas/"),
-    // new Producto(1035, "Correa Trapezoidal (Motores Yamz)", "0", "2 767.98", "17-X9-60-0", "correas", 4, "../../media/img/productos/automotriz/correas/"),
+    new Producto(1032, "Correa Trapezoidal (Bomba de Agua Yamz)", "0", "2 477.04", "17-X-800-0", "correas", 4, "../../media/img/productos/automotriz/correas/17x800_trapezoidal.jpg"),
+    new Producto(1033, "Correa Trapezoidal (Camiones Howo)", "0", "2 555.37", "17-X-838-0", "correas", 4, "../../media/img/productos/automotriz/correas/17x838_trapezoidal.jpg"),
+    new Producto(1034, "Correa Trapezoidal (Camiones Howo)", "0", "2 577.75", "17-X850-0", "correas", 4, "../../media/img/productos/automotriz/correas/17x850_trapezoidal.jpg"),
+    new Producto(1035, "Correa Trapezoidal (Motores Yamz)", "0", "2 767.98", "17-X-960-0", "correas", 4, "../../media/img/productos/automotriz/correas/17x960_trapezoidal.jpg"),
 
-    // new Producto(1036, "Correa Trapezoidal (Tractor Jun 6)", "0", "2 740.07", "17-X1-37-2", "correas", 4, "../../media/img/productos/automotriz/correas/"),
-    // new Producto(1037, "Correa Trapezoidal (Tractor Jun 7)", "0", "2 640.07", "17-X1-42-2", "correas", 4, "../../media/img/productos/automotriz/correas/"),
+    new Producto(1036, "Correa Trapezoidal (Tractor Jun 6)", "0", "2 740.07", "17-X-1372", "correas", 4, "../../media/img/productos/automotriz/correas/17x1372_trapezoidal.jpg"),
+    new Producto(1037, "Correa Trapezoidal (Tractor Jun 7)", "0", "2 607.21", "17-X-1422", "correas", 4, "../../media/img/productos/automotriz/correas/17x1422_trapezoidal.jpg"),
 
-    // new Producto(1038, "Correa Trapezoidal (Motores Fiat 8210)", "0", "2 629.59", "17-X1-42-5", "correas", 4, "../../media/img/productos/automotriz/correas/"),
+    new Producto(1038, "Correa Trapezoidal (Motores Fiat 8210)", "0", "2 629.59", "17-X-1425", "correas", 4, "../../media/img/productos/automotriz/correas/17x1425_trapezoidal.jpg"),
     // new Producto(1039, "Correa Trapezoidal (Motores Fiat 8210)", "0", "2 674.35", "17-X1-45-0", "correas", 4, "../../media/img/productos/automotriz/correas/"),
-    // new Producto(1040, "Correa Trapezoidal (Motores Fiat 8210)", "0", "2 920.52", "17-X1-57-5", "correas", 4, "../../media/img/productos/automotriz/correas/"),
+    new Producto(1040, "Correa Trapezoidal (Motores Fiat 8210)", "0", "2 920.52", "17-X-1575", "correas", 4, "../../media/img/productos/automotriz/correas/17x1575_trapezoidal.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -231,13 +231,17 @@ let productosTotales = [
     new Producto(1105, "Disco", "$", "9 614.03", "TOYOTA 2L", "discos", 3, "../../media/img/productos/automotriz/discos/T_2L.jpg"),
 //  new Producto(1105, "Plato de", "$", "9 879.82", "TOYOTA 3L", "discos", 0, "../../media/img/productos/automotriz/discos/2C.jpg"),
 
-    new Producto(1101, "Disco de Freno", "$", "9 402.03", "MITSUBISHI MONTERO/L200 4WD", "discos", 4, "img.jpg"),
+    new Producto(1101, "Disco de Freno", "$", "9 402.03", "MITSUBISHI MONTERO/L200 4WD", "discos", 4, "../../media/img/productos/automotriz/discos/mitsubishi_L200.jpg"),
+
+    new Producto(1104, "Disco", "$", "15 415.12", "MIT 4G54/4D55/56/4M40", "discos", 2, "../../media/img/productos/automotriz/discos/MIT_4G54_4D55_56_4M40.jpg"),
 
     new Producto(1105, "Disco", "$", "9 438.94", "2C", "discos", 2, "../../media/img/productos/automotriz/discos/2C.jpg"),
 
     new Producto(1104, "Disco de Cloche", "$", "9 614.31", "T 2L", "discos", 2, "../../media/img/productos/automotriz/discos/cloche_T_2L.jpg"),
 
     new Producto(1104, "Disco", "$", "9 614.31", "Mitsubishi 4D 55/4D 56", "discos", 2, "../../media/img/productos/automotriz/discos/cloche_T_2L.jpg"),
+
+    new Producto(1104, "Plato de Embrague", "$", "15 107.72", "Toyota 3L", "discos", 2, "../../media/img/productos/automotriz/discos/plato_de_embrague_toyota_3L.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -276,8 +280,8 @@ let productosTotales = [
 
     // Filtros
     //new Producto(101, "Bombin de Petroleo", "26.69$", "9 609.88$", "Pendiente", "filtros", 15, "../../media/img/productos/automotriz/filtros.jpg"),
-    new Producto(102, "Filtro de Aceite", "0", "1 166.02", "TOYOTA 2E/4A", "filtros", 0, "../../media/img/productos/automotriz/filtros/toyotaYaris.jpg", 'filtro', 35),
-    new Producto(102, "Filtro de Gasolina", "0", "1 761.72", "HYUNDAY", "filtros", 0, "../../media/img/productos/automotriz/filtros/gasolina.jpg", 'filtro', 26),
+    new Producto(102, "Filtro de Aceite", "0", "1 166.02", "TOYOTA 2E/4A", "filtros", 12, "../../media/img/productos/automotriz/filtros/toyotaYaris.jpg", 'filtro', 35),
+    new Producto(102, "Filtro de Gasolina", "0", "1 761.72", "HYUNDAY", "filtros", 2, "../../media/img/productos/automotriz/filtros/gasolina.jpg", 'filtro', 26),
     new Producto(103, "Filtro Decantador de Agua", "0", "3 862.23", "HYUNDAY", "filtros", 2, "../../media/img/productos/automotriz/filtros/decantador.jpg"),
     new Producto(104, "Filtro De Aire", "0", "2 108.48", "HYUNDAY", "filtros", 2, "../../media/img/productos/automotriz/filtros/aire.jpg"),
     new Producto(105, "Filtro Diesel", "0", "1 187.02", "MITSUBISHI L200/L300", "filtros", 2, "../../media/img/productos/automotriz/filtros/dieselL300.jpg"),
@@ -418,7 +422,7 @@ function mostrarSliderMejoresVentas() {
         
         let cajaSecundaria = document.createElement("div");
         cajaSecundaria.classList.add("caja-secundaria");
-        cajaSecundaria.innerHTML = `<p><span class="producto_span">Producto</span> ${producto.nombre}</p>
+        cajaSecundaria.innerHTML = `<p><span class="producto_span"></span> ${producto.nombre}</p>
                                     <p><span class="producto_span">Marca</span> ${producto.marca}</p>
                                     <p><span class="producto_span">Precio</span> $${producto.precio_cup}</p>`;
         cajaContenedora.appendChild(cajaSecundaria);
@@ -532,7 +536,7 @@ function mostrarProductos(productos) {
         cajaSecundaria.classList.add("caja-secundaria");
 
         // Salida primaria
-        cajaSecundaria.innerHTML = `<p><span class="producto_span">Producto</span> ${producto.nombre}</p>
+        cajaSecundaria.innerHTML = `<p><span class="producto_span"></span> ${producto.nombre}</p>
                                      <p><span class="producto_span">Marca</span> ${producto.marca}</p>
                                       <p><span class="producto_span">Precio</span> $${producto.precio_cup}</p>`;
 
