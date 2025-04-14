@@ -156,7 +156,7 @@ let productosTotales = [
     // Buje --- buje
 
     new Producto(1201, "Buje", "0.97$", "267.05", "No Registrado", "buje", 0, "../../media/img/productos/automotriz/bujes/Lumii_20250114_112350448.jpg"),
-    new Producto(1202, "Buje de la parrilla delantera inferior A", "0.97$", "315.03", "No Registrado", "buje", 4, "../../media/img/productos/automotriz/bujes/buje.jpg"),
+    new Producto(1202, "Buje de la Parrilla Delantera Inferior A", "0.97$", "315.03", "No Registrado", "buje", 4, "../../media/img/productos/automotriz/bujes/buje.jpg"),
 
    // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -400,9 +400,9 @@ let productosTotales = [
 
     new Producto(3031, "Flacher 24V", "1$", "524.02", "L*MAF-1030-24", "otros", 0, "../../media/img/productos/automotriz/otros/flasher.jpg"),
 
-    new Producto(3032, "Rotula de la direccion", "1$", "2454.37", "H100 minibus93", "otros", 4, "../../media/img/productos/automotriz/otros/rotula.jpg"),
+    new Producto(3032, "Rotula de Dirección", "1$", "2454.37", "H100 minibus93", "otros", 4, "../../media/img/productos/automotriz/otros/rotula.jpg"),
 
-    new Producto(3033, "Barra de Transmision", "1$", "92 578.35", "Toyota", "otros", 1, "../../media/img/productos/automotriz/otros/barra.jpg"),
+    new Producto(3033, "Barra de Transmisión", "1$", "92 578.35", "Toyota", "otros", 1, "../../media/img/productos/automotriz/otros/barra.jpg"),
 
 
     // ------------------------------------------------------------------------------------------------ //
