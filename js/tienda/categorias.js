@@ -51,9 +51,8 @@ let productosTotales = [
 
     // Lima --- lima
 
-    new Producto(101, "Lima", "$", "1 862.84", "P/Motosierra 5.5mm X 3pcs", "lima", 0),
-    new Producto(102, "Lima", "$", "2 540.82", 'NO.221 Plana 10"m/plast', "lima", 0),
-
+    new Producto(101, "Lima", "$", "1 862.84", "P/Motosierra 5.5mm X 3pcs", "lima", 2, "../../media/img/productos/ferreteria/limas/moto.jpg"),
+    new Producto(102, "Lima", "$", "2 540.82", 'NO.221 Plana 10"m/plast', "lima", 2, "../../media/img/productos/ferreteria/limas/plana.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -83,7 +82,8 @@ let productosTotales = [
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
-
+    // 
+    
     // Aceites
 
     new Producto(401, "Aceite", "7.12", "9 957.30", "15W40 Diesel API CH-4(5L)", "aceites", 15, "../../media/img/productos/automotriz/aceites/petroleo.jpg", 'liquido', 20),
@@ -99,14 +99,15 @@ let productosTotales = [
     // Alternador -- alternador
 
     new Producto(3012, "Alternador", "1", "169 581.68", "Toyota", "alternador", 1, "../../media/img/productos/automotriz/alternadores/alternador_de_TOYOTA.jpg"),
+    new Producto(3013, "Alternador", "2", "164 050.30", "HD260 AEROCITY", "alternador", 2, "../../media/img/productos/automotriz/alternadores/FormatFactoryLumii_20250414_100856226.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
-
     // Amortiguación
-    new Producto(301, "Amortiguador Derecho", "77.64", "21 292.07", "Atos", "amortiguacion", 2, "../../media/img/productos/automotriz/amortiguadores/amortiguador_ATOS.jpg"),
+    new Producto(301, "Amortiguador Derecho", "77.64", "19 749.58", "Atos", "amortiguacion", 2, "../../media/img/productos/automotriz/amortiguadores/amortiguador_ATOS.jpg"),
     //new Producto(302, "Amortiguador Isquierdo", "77.64", "21 292.07", "Atos", "amortiguacion", 1, "../IMG/Productos/Alt/amortigua.png"),
+    new Producto(301, "Amortiguador Trasero", "77.64", "16 380.92", "5Ton HD120", "amortiguacion", 4, "../../media/img/productos/automotriz/amortiguadores/FormatFactoryamortiguador.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -154,7 +155,8 @@ let productosTotales = [
 
     // Buje --- buje
 
-    new Producto(1201, "Buje", "0.97$", "267.05", "No Registrado", "buje", 2, "../../media/img/productos/automotriz/bujes/Lumii_20250114_112350448.jpg"),
+    new Producto(1201, "Buje", "0.97$", "267.05", "No Registrado", "buje", 0, "../../media/img/productos/automotriz/bujes/Lumii_20250114_112350448.jpg"),
+    new Producto(1202, "Buje de la parrilla delantera inferior A", "0.97$", "315.03", "No Registrado", "buje", 4, "../../media/img/productos/automotriz/bujes/buje.jpg"),
 
    // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -258,6 +260,10 @@ let productosTotales = [
     new Producto(605, "Kit de Reparación", "0", "577.18", "Esclava Auto Geely", "kit", 20, "../../media/img/productos/automotriz/emp/kit_esclava.jpg", "kit de Reparacion"),
     new Producto(605, "Kit de Reparación", "0", "1 887.78", "Cran Trasero Howo", "kit", 4, "../../media/img/productos/automotriz/emp/kit_trasero_howo.jpg", "kit de Reparacion"),
 
+    // Kit de Clanes |4| 
+
+    new Producto(606, "Kit de Clanes", "0", "1 887.78", "No registrada", "kit", 4, "../../media/img/productos/automotriz/emp/clanes.jpg", "kit de Reparacion"),
+
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
@@ -272,7 +278,7 @@ let productosTotales = [
 
     // Farol --- farol
 
-    new Producto(1301, "Farol Trasero", "51.93$", "14 281.07", "No Registrada", "farol", 2, "../../media/img/productos/automotriz/faroles/01.jpg"),
+    new Producto(1301, "Farol Trasero", "51.93$", "13 021.56", "No Registrada", "farol", 2, "../../media/img/productos/automotriz/faroles/01.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -282,8 +288,8 @@ let productosTotales = [
     //new Producto(101, "Bombin de Petroleo", "26.69$", "9 609.88$", "Pendiente", "filtros", 15, "../../media/img/productos/automotriz/filtros.jpg"),
     new Producto(102, "Filtro de Aceite", "0", "1 166.02", "TOYOTA 2E/4A", "filtros", 12, "../../media/img/productos/automotriz/filtros/toyotaYaris.jpg", 'filtro', 35),
     new Producto(102, "Filtro de Gasolina", "0", "1 761.72", "HYUNDAY", "filtros", 2, "../../media/img/productos/automotriz/filtros/gasolina.jpg", 'filtro', 26),
-    new Producto(103, "Filtro Decantador de Agua", "0", "3 862.23", "HYUNDAY", "filtros", 2, "../../media/img/productos/automotriz/filtros/decantador.jpg"),
-    new Producto(104, "Filtro De Aire", "0", "2 108.48", "HYUNDAY", "filtros", 2, "../../media/img/productos/automotriz/filtros/aire.jpg"),
+    new Producto(103, "Filtro Decantador de Agua", "0", "3 753.28", "HYUNDAY", "filtros", 2, "../../media/img/productos/automotriz/filtros/decantador.jpg"),
+    new Producto(104, "Filtro De Aire", "0", "1 979.02", "HYUNDAY", "filtros", 2, "../../media/img/productos/automotriz/filtros/aire.jpg"),
     new Producto(105, "Filtro Diesel", "0", "1 187.02", "MITSUBISHI L200/L300", "filtros", 2, "../../media/img/productos/automotriz/filtros/dieselL300.jpg"),
     new Producto(106, "Filtro Diesel", "0", "1 155.01", "NISSAN SD23/TD27(02N10)", "filtros", 10, "../../media/img/productos/automotriz/filtros/dieselTD27.jpg"),
     new Producto(107, "Filtro Diesel", "0", "1 152.42", "TOYOTA 2L/3L", "filtros", 22, "../../media/img/productos/automotriz/filtros/toyota3L.jpg"),
@@ -298,7 +304,10 @@ let productosTotales = [
     // Frenos 
     new Producto(501, "Taco de Freno", "$", "5 077.34", "TOYOTA HIACE", "frenos", 2),
     new Producto(502, "Banda de Freno de Emergencia", "67.58", "8 110.00$", "No Registrado", "frenos", 2, "../../media/img/productos/automotriz/frenos/HIACE.jpg"),
-    new Producto(503, "Juego de Banda de Freno", "22.97", "7 692.57", "TRUCK", "frenos", 2),
+    new Producto(503, "Juego de Banda de Freno", "22.97", "7 475.58", "TRUCK", "frenos", 2, "../../media/img/productos/automotriz/frenos/TRUCK.jpg"),
+    //  NISSAN | 1 | 8 966.38
+    new Producto(504, "Pastillas de Freno Delanteras", "22.97", "8 966.38", "TRUCK", "frenos", 1, "../../media/img/productos/automotriz/frenos/pastilla_de_freno.jpg"),
+
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -318,7 +327,7 @@ let productosTotales = [
     new Producto(1902, "Manguera de Salida Del Radiador", "11.26$", "3 664.43", "No Espesificado", "manguera", 5, "../../media/img/productos/automotriz/mangueras/entradaYsalida.jpg"),
     new Producto(1903, "Manguera Corrugada 32 X 700", "15.38$", "4 778.00", "No Registrado", "manguera", 10, "../../media/img/productos/automotriz/mangueras/mediana.jpg"),
     new Producto(1904, "Manguera Corrugada 38 x 500", "11.26$", "4 778.00", "No Registrado", "manguera", 10, "../../media/img/productos/automotriz/mangueras/larga.jpg"),
-    new Producto(1905, "Manguera de Freno", "11.26$", "1 606.27", "No Registrado", "manguera", 2, "../../media/img/productos/automotriz/mangueras/deFreno.jpg"),
+    new Producto(1905, "Manguera de Freno", "11.26$", "1 560.96", "No Registrado", "manguera", 2, "../../media/img/productos/automotriz/mangueras/deFreno.jpg"),
     
     new Producto(1905, "Manguera de Freno HID delantero", "11.26$", "1 789.25", "No Registrado", "manguera", 2, "../../media/img/productos/automotriz/mangueras/freno_hid_delantero.jpg"),
     new Producto(1905, "Manguera de Freno HID trasero", "11.26$", "1 817.25", "No Registrado", "manguera", 2, "../../media/img/productos/automotriz/mangueras/freno_hid_trasero.jpg"),
@@ -347,7 +356,7 @@ let productosTotales = [
 
     // Pinza --- pinza
 
-    new Producto(1701, "Pinza de Freno", "204.10$", "56 127.84", "Tracero Derecho.27", "pinza", 2, "../../media/img/productos/automotriz/pinzas/pinza.jpg"),
+    new Producto(1701, "Pinza de Freno", "204.10$", "54 544.63", "Tracero Derecho.27", "pinza", 2, "../../media/img/productos/automotriz/pinzas/pinza.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -355,17 +364,17 @@ let productosTotales = [
 
     // Reten --- reten
 
-    new Producto(1604, "Retente Aceite Ruedas Delanteras", "$", "243.13", "No Registrado", "reten", 2, "../../media/img/productos/automotriz/retenes/delanteras.jpg", 'retente'),
-    new Producto(1605, "Retente de Aceite", "$", "358.72", "No Registrado", "reten", 2, "../../media/img/productos/automotriz/retenes/reten.jpg", 'retente'),
+    new Producto(1604, "Retente Aceite de Ruedas Delanteras", "$", "236.27", "No Registrado", "reten", 2, "../../media/img/productos/automotriz/retenes/delanteras.jpg", 'retente'),
+    new Producto(1605, "Retente de Aceite", "$", "348.60", "No Registrado", "reten", 2, "../../media/img/productos/automotriz/retenes/reten.jpg", 'retente'),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
 
-    // Rodamiento --- rodamiento
+    // Rodamiento --- rodamiento 
 
-    new Producto(1501, "Rodamiento Trasero Conico", "20.83$", "5 767.46", "Union", "rodamiento", 2, "../../media/img/productos/automotriz/rodamientos/azul.jpg", 'caja de bolas'),
-    new Producto(1501, "Rodamiento Trasero Conico", "20.83$", "5 767.46", "No Registrado", "rodamiento", 2, "../../media/img/productos/automotriz/rodamientos/01.jpg", 'caja de bolas'),
+    new Producto(1501, "Rodamiento Trasero Conico", "20.83$", "4 987.41", "Union", "rodamiento", 2, "../../media/img/productos/automotriz/rodamientos/azul.jpg", 'caja de bolas'),
+    new Producto(1501, "Rodamiento Trasero Conico", "20.83$", "4 987.41", "No Registrado", "rodamiento", 2, "../../media/img/productos/automotriz/rodamientos/01.jpg", 'caja de bolas'),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -378,18 +387,23 @@ let productosTotales = [
     new Producto(702, "Tapa de BLOCK", "$", "4 078.62", "LD-20", "juntas", 2, "../../media/img/productos/automotriz/sellos/juntaBlockLD20.jpg", 'tapa', 7,),
     new Producto(703, "Junta de Inyectores", "0.64$", "175.37", "No Registrado", "juntas", 4),
     
-    new Producto(706, "Sello de Aceite C/V", "3.99$", "1 096.09", "No Registrado", "juntas", 2, "../../media/img/productos/automotriz/sellos/aceite.jpg", 'seyo', 8),
+    new Producto(706, "Sello de Aceite C/V", "3.99$", "968.19", "No Registrado", "juntas", 2, "../../media/img/productos/automotriz/sellos/aceite.jpg", 'seyo', 8),
     new Producto(707, "Junta", "0.64$", "11 687.30", "Toyota 2L", "juntas", 2),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
 
-    // Otros --- otros
+    // Otros --- otros  
     new Producto(3030, "Bomba de Agua", "1$", "19 897.59", "No Registrado", "otros", 2, "../../media/img/productos/automotriz/otros/bomba.jpg"),
     new Producto(3031, "Radiador", "1$", "14 892.81", "No Registrado", "otros", 0, "../../media/img/productos/automotriz/otros/radiador.jpg"),
 
     new Producto(3031, "Flacher 24V", "1$", "524.02", "L*MAF-1030-24", "otros", 0, "../../media/img/productos/automotriz/otros/flasher.jpg"),
+
+    new Producto(3032, "Rotula de la direccion", "1$", "2454.37", "H100 minibus93", "otros", 4, "../../media/img/productos/automotriz/otros/rotula.jpg"),
+
+    new Producto(3033, "Barra de Transmision", "1$", "92 578.35", "Toyota", "otros", 1, "../../media/img/productos/automotriz/otros/barra.jpg"),
+
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -666,9 +680,9 @@ document.querySelector("form").addEventListener("submit", buscarProducto);
         // document.getElementById("boton_discof").addEventListener("click", () => {
         //     filtrarPorCategoria("discof");
         // });
-        // document.getElementById("boton_lima").addEventListener("click", () => {
-        //     filtrarPorCategoria("lima");
-        // });
+document.getElementById("boton_lima").addEventListener("click", () => {
+    filtrarPorCategoria("lima");
+});
         // //document.getElementById("boton_sierras").addEventListener("click", () => {
         // //    filtrarPorCategoria("sierras");
         // //});
