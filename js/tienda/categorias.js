@@ -407,7 +407,7 @@ let productosTotales = [
 
     new Producto(3035, "Deslizante de la Caja", "0$", "27 827.82", "Hyundai", "otros", 2, "../../media/img/productos/automotriz/otros/deslisante.jpg"),
 
-    new Producto(3035, "Kit de Clanes", "0$", "1887.78", "Camio Howo", "otros", 4, "../../media/img/productos/automotriz/otros/deslisante.jpg"),
+    new Producto(3035, "Kit de Clanes", "0$", "1887.78", "Camio Howo", "otros", 4, "../../media/img/productos/automotriz/otros/clanes.jpg"),
 
 
     // ------------------------------------------------------------------------------------------------ //
