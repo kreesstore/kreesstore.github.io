@@ -30,8 +30,6 @@ document.querySelectorAll('.categoria__boton').forEach(link => {
     });
 });
 
-
-
 // Lista global de productos
 let productosTotales = [
 
@@ -43,7 +41,6 @@ let productosTotales = [
     new Producto(1, "Disco de Corte", "$", "1 172.00", 'PLAYWOOD (7025 X 140T X 5/8")', "discof", 0),
     new Producto(2, "Disco de Corte", "$", "1 257.74", 'PLAYWOOD (705 X 180T X 5/8")', "discof", 0),
     new Producto(3, "Disco de Sierra", "$", "3 354.42", '"10(10" X 60T X 7/8")', "discof", 0),
-
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -82,14 +79,13 @@ let productosTotales = [
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
-    // 
     
     // Aceites
 
     new Producto(401, "Aceite", "7.12", "9 957.30", "15W40 Diesel API CH-4(5L)", "aceites", 15, "../../media/img/productos/automotriz/aceites/petroleo.jpg", 'liquido', 20),
     new Producto(402, "Aceite", "7.12", "12 727.95.59", "15W40 Gasolina API SL(5L)", "aceites", 5, "../../media/img/productos/automotriz/aceites/petroleo.jpg", 'liquido', 10),
     new Producto(403, "Aceite de Transmisión Automática", "11.57", "2 993.41", "CVT (1L)", "aceites", 12, "../../media/img/productos/automotriz/aceites/aceite_de_trasmicion_automatica.jpg", 'liquido', 25,),
-    new Producto(404, "Líquido de Freno", "12.11", "3 386.41", "(500ml)", "aceites", 10, "../../media/img/productos/automotriz/aceites/liquido_de_frenos.jpg", 'liquido', 11),
+    new Producto(404, "Líquido de Freno", "12.11", "3 386.41", "(500ml)", "aceites", 0, "../../media/img/productos/automotriz/aceites/liquido_de_frenos.jpg", 'liquido', 11),
     new Producto(405, "Grasa de Calcio Multiuso", "9.62", "2 691.28", "MP3 (1Kg)", "aceites", 9, "../../media/img/productos/automotriz/aceites/grasa.jpg", "liquido", 15),
 
     // ------------------------------------------------------------------------------------------------ //
@@ -99,7 +95,8 @@ let productosTotales = [
     // Alternador -- alternador
 
     new Producto(3012, "Alternador", "1", "169 581.68", "Toyota", "alternador", 1, "../../media/img/productos/automotriz/alternadores/alternador_de_TOYOTA.jpg"),
-    new Producto(3013, "Alternador", "2", "164 050.30", "HD260 AEROCITY", "alternador", 2, "../../media/img/productos/automotriz/alternadores/FormatFactoryLumii_20250414_100856226.jpg"),
+    new Producto(3013, "Alternador", "2", "129 925.29", "HD260 AEROCITY", "alternador", 2, "../../media/img/productos/automotriz/alternadores/FormatFactoryLumii_20250414_100856226.jpg"),
+    new Producto(3014, "Alternador", "2", "129 925.29", "HD260 AEROCITY", "alternador", 2, "../../media/img/productos/automotriz/alternadores/06.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -107,7 +104,7 @@ let productosTotales = [
     // Amortiguación
     new Producto(301, "Amortiguador Derecho", "77.64", "19 749.58", "Atos", "amortiguacion", 2, "../../media/img/productos/automotriz/amortiguadores/amortiguador_ATOS.jpg"),
     //new Producto(302, "Amortiguador Isquierdo", "77.64", "21 292.07", "Atos", "amortiguacion", 1, "../IMG/Productos/Alt/amortigua.png"),
-    new Producto(301, "Amortiguador Trasero", "77.64", "16 380.92", "5Ton HD120", "amortiguacion", 4, "../../media/img/productos/automotriz/amortiguadores/FormatFactoryamortiguador.jpg"),
+    new Producto(301, "Amortiguador Trasero", "77.64", "14 764.24", "5Ton HD120", "amortiguacion", 4, "../../media/img/productos/automotriz/amortiguadores/FormatFactoryamortiguador.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -118,7 +115,6 @@ let productosTotales = [
     new Producto(1301, "Anillos", "$", "8 868.33", "STD TOYOTA 3L", "anillos", 5, "../../media/img/productos/automotriz/anillos/1.jpg"),
     new Producto(1302, "Anillos", "$", "8 323.33", "STD TOYOTA 2L(5929)", "anillos", 5, "../../media/img/productos/automotriz/anillos/2.jpg"),
 
-    
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
@@ -134,7 +130,6 @@ let productosTotales = [
     new Producto(1, "Batería de Moto 12V 14AH", ".00", "20 542.89", "KM Batteries", "baterias", 1, "../../media/img/productos/automotriz/baterias/moto_14AH.jpg", "batery"),
     new Producto(1, "Batería de Moto 12V 18AH", ".00", "23 853.41", "KM Batteries", "baterias", 2, "../../media/img/productos/automotriz/baterias/moto_18AH.jpg", "batery"),
     new Producto(1, "Batería de Moto 12V 20AH", ".00", "20 083.75", "KM Batteries", "baterias", 2, "../../media/img/productos/automotriz/baterias/moto_20AH.jpg", "batery"),
-
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -156,7 +151,8 @@ let productosTotales = [
     // Buje --- buje
 
     new Producto(1201, "Buje", "0.97$", "267.05", "No Registrado", "buje", 0, "../../media/img/productos/automotriz/bujes/Lumii_20250114_112350448.jpg"),
-    new Producto(1202, "Buje de la Parrilla Delantera Inferior A", "0.97$", "315.03", "No Registrado", "buje", 4, "../../media/img/productos/automotriz/bujes/buje.jpg"),
+    new Producto(1202, "Buje de la Parrilla Delantera Inferior A", "0.97$", "315.03", "No Registrado", "buje", 0, "../../media/img/productos/automotriz/bujes/buje.jpg"),
+    new Producto(1203, "Buje de la Parrilla", "0", "1169.38", "No Registrado", "buje", 10, "../../media/img/productos/automotriz/bujes/buje_de_la_parrilla.jpg"),
 
    // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -270,7 +266,7 @@ let productosTotales = [
 
     // Esfericas Superiores --- esfericas superiores
 
-    new Producto(901, "Esféricas Superior", "$", "4 328.36", "HIACE", "esfericas superiores", 4, "../../media/img/productos/automotriz/esfericas/superior_de_HIACE.jpg"),
+    new Producto(901, "Esféricas Superior", "$", "4 328.36", "HIACE", "esfericas superiores", 0, "../../media/img/productos/automotriz/esfericas/superior_de_HIACE.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -279,6 +275,10 @@ let productosTotales = [
     // Farol --- farol
 
     new Producto(1301, "Farol Trasero", "51.93$", "13 021.56", "No Registrada", "farol", 2, "../../media/img/productos/automotriz/faroles/01.jpg"),
+    new Producto(1301, "Farol Trasero CU", "51.93$", "15 849.39", "No Registrada", "farol", 2, "../../media/img/productos/automotriz/faroles/02.jpg"),
+    new Producto(1301, "Farol Trasero CU", "51.93$", "15 849.39", "No Registrada", "farol", 2, "../../media/img/productos/automotriz/faroles/03.jpg"),
+    new Producto(1301, "Farol Trasero CU", "51.93$", "18 280.35", "No Registrada", "farol", 2, "../../media/img/productos/automotriz/faroles/04.jpg"),
+    new Producto(1301, "Farol Trasero CU", "51.93$", "18 280.35", "No Registrada", "farol", 2, "../../media/img/productos/automotriz/faroles/05.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -302,12 +302,11 @@ let productosTotales = [
     // ------------------------------------------------------------------------------------------------ //
 
     // Frenos 
-    new Producto(501, "Taco de Freno", "$", "5 077.34", "TOYOTA HIACE", "frenos", 2),
+    // new Producto(501, "Taco de Freno", "$", "5 077.34", "TOYOTA HIACE", "frenos", 2),
     new Producto(502, "Banda de Freno de Emergencia", "67.58", "8 110.00$", "No Registrado", "frenos", 2, "../../media/img/productos/automotriz/frenos/HIACE.jpg"),
     new Producto(503, "Juego de Banda de Freno", "22.97", "7 475.58", "TRUCK", "frenos", 2, "../../media/img/productos/automotriz/frenos/TRUCK.jpg"),
     //  NISSAN | 1 | 8 966.38
-    new Producto(504, "Pastillas de Freno Delanteras", "22.97", "8 966.38", "TRUCK", "frenos", 1, "../../media/img/productos/automotriz/frenos/pastilla_de_freno.jpg"),
-
+    new Producto(504, "Pastillas de Freno Delanteras", "22.97", "8 966.38", "TRUCK", "frenos", 0, "../../media/img/productos/automotriz/frenos/pastilla_de_freno.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -332,7 +331,6 @@ let productosTotales = [
     new Producto(1905, "Manguera de Freno HID delantero", "11.26$", "1 789.25", "No Registrado", "manguera", 2, "../../media/img/productos/automotriz/mangueras/freno_hid_delantero.jpg"),
     new Producto(1905, "Manguera de Freno HID trasero", "11.26$", "1 817.25", "No Registrado", "manguera", 2, "../../media/img/productos/automotriz/mangueras/freno_hid_trasero.jpg"),
 
-
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
     // ------------------------------------------------------------------------------------------------ //
@@ -348,7 +346,7 @@ let productosTotales = [
 
     // Neumáticos
     new Producto(201, "Neumático Delantero 500*80", "$", "14 346.41", "No Registrado", "neumaticos", 4, "../../media/img/productos/automotriz/neumaticos/500_80.jpg", 'goma rueda', 20),
-    new Producto(202, "Neumático Trasero 6 50*10", "$", "16 692.81", "No Registrado", "neumaticos", 2, "../../media/img/productos/automotriz/neumaticos/6__50_10.jpg", "goma rueda", 28),
+    new Producto(202, "Neumático Trasero 6 50*10", "$", "16 692.81", "No Registrado", "neumaticos", 0, "../../media/img/productos/automotriz/neumaticos/6__50_10.jpg", "goma rueda", 28),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -375,6 +373,8 @@ let productosTotales = [
 
     new Producto(1501, "Rodamiento Trasero Conico", "20.83$", "4 987.41", "Union", "rodamiento", 2, "../../media/img/productos/automotriz/rodamientos/azul.jpg", 'caja de bolas'),
     new Producto(1501, "Rodamiento Trasero Conico", "20.83$", "4 987.41", "No Registrado", "rodamiento", 2, "../../media/img/productos/automotriz/rodamientos/01.jpg", 'caja de bolas'),
+    // AAAAAAA
+    new Producto(1501, "Rodamiento Conico", "20.83$", "16 258.71", "Ford / Ford Sprint / Jeep Cherokee / Nissan / N.Navara / Frontier", "rodamiento", 2, "../../media/img/productos/automotriz/rodamientos/01.jpg", 'caja de bolas'),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
@@ -382,7 +382,6 @@ let productosTotales = [
 
     // Juntas --- juntas
 
-    
     new Producto(701, "Tapa de BLOCK", "$", "3 733.98", "4D-30", "juntas", 1, "../../media/img/productos/automotriz/sellos/juntaBlock4D.jpg", 'tapa', 6),
     new Producto(702, "Tapa de BLOCK", "$", "4 078.62", "LD-20", "juntas", 2, "../../media/img/productos/automotriz/sellos/juntaBlockLD20.jpg", 'tapa', 7,),
     new Producto(703, "Junta de Inyectores", "0.64$", "175.37", "No Registrado", "juntas", 4),
@@ -400,9 +399,15 @@ let productosTotales = [
 
     new Producto(3031, "Flacher 24V", "1$", "524.02", "L*MAF-1030-24", "otros", 0, "../../media/img/productos/automotriz/otros/flasher.jpg"),
 
-    new Producto(3032, "Rotula de Dirección", "1$", "2454.37", "H100 minibus93", "otros", 4, "../../media/img/productos/automotriz/otros/rotula.jpg"),
+    new Producto(3032, "Rotula de Dirección", "1$", "2265.57", "H100 minibus93", "otros", 4, "../../media/img/productos/automotriz/otros/rotula.jpg"),
 
     new Producto(3033, "Barra de Transmisión", "1$", "92 578.35", "Toyota", "otros", 1, "../../media/img/productos/automotriz/otros/barra.jpg"),
+
+    new Producto(3034, "Llanta", "1$", "29 897.25", "Toyota", "otros", 1, "../../media/img/productos/automotriz/otros/yanta.jpg"),
+
+    new Producto(3035, "Deslizante de la Caja", "0$", "27 827.82", "Hyundai", "otros", 2, "../../media/img/productos/automotriz/otros/deslisante.jpg"),
+
+    new Producto(3035, "Kit de Clanes", "0$", "1887.78", "Camio Howo", "otros", 4, "../../media/img/productos/automotriz/otros/deslisante.jpg"),
 
 
     // ------------------------------------------------------------------------------------------------ //
@@ -412,9 +417,6 @@ let productosTotales = [
     // Banda --- banda
 
     new Producto(1401, "Banda", "35$", "7 026.94", "No Registrada", "banda", 2),
-
-
-
 ];
 
 //Slider//
