@@ -96,7 +96,7 @@ let productosTotales = [
 
     new Producto(3012, "Alternador", "1", "169 581.68", "Toyota", "alternador", 1, "../../media/img/productos/automotriz/alternadores/alternador_de_TOYOTA.jpg"),
     new Producto(3013, "Alternador", "2", "129 925.29", "HD260 AEROCITY", "alternador", 2, "../../media/img/productos/automotriz/alternadores/FormatFactoryLumii_20250414_100856226.jpg"),
-    new Producto(3014, "Alternador", "2", "129 925.29", "HD260 AEROCITY", "alternador", 2, "../../media/img/productos/automotriz/alternadores/06.jpg"),
+    new Producto(3014, "Alternador", "2", "0", "HD260 AEROCITY", "alternador", 0, "../../media/img/productos/automotriz/alternadores/06.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
