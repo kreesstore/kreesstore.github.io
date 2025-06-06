@@ -395,6 +395,7 @@ let productosTotales = [
 
     // Otros --- otros  
     new Producto(3030, "Bomba de Agua", "1$", "19 897.59", "No Registrado", "otros", 2, "../../media/img/productos/automotriz/otros/bomba.jpg"),
+
     new Producto(3031, "Radiador", "1$", "14 892.81", "No Registrado", "otros", 0, "../../media/img/productos/automotriz/otros/radiador.jpg"),
 
     new Producto(3031, "Flacher 24V", "1$", "524.02", "L*MAF-1030-24", "otros", 0, "../../media/img/productos/automotriz/otros/flasher.jpg"),
@@ -407,8 +408,7 @@ let productosTotales = [
 
     new Producto(3035, "Deslizante de la Caja", "0$", "27 827.82", "Hyundai", "otros", 2, "../../media/img/productos/automotriz/otros/deslisante.jpg"),
 
-    new Producto(3035, "Kit de Clanes", "0$", "1887.78", "Camio Howo", "otros", 4, "../../media/img/productos/automotriz/otros/clanes.jpg"),
-
+    new Producto(3035, "Kit de Clanes", "0$", "1887.78", "Camion Howo", "otros", 4, "../../media/img/productos/automotriz/otros/clanes.jpg"),
 
     // ------------------------------------------------------------------------------------------------ //
     // ************************************************************************************************ //
