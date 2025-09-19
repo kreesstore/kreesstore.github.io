@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La Sociedad Mercantil Krees S.R.L es una pequeña empresa familiar, privada e independiente creada en la ciudad de Holguín en febrero de 2022.">
+    <meta name="keywords" content="Empresa de Ventas, Ferreteria, Automotriz">
+    <meta name="author" content="Manuel Del Rio Socorro">
+    <link rel="shortcut icon" href="../media/img/design/universal/favicoin.jpg" type="image/x-icon">
+    <title>Krees - Info</title>
+    <link rel="stylesheet" href="../css/estilos_universales.css">
+    <link rel="stylesheet" href="../css/info/info.css">
+    <script src="../js/menu_desplegable_header.js"></script>
+</head>
+<body>
+    <!-- Contenedor Principal -->
+    <div class="contenedor_principal">
+        <!-- Imagen de Fondo -->
+        <div class="imagen_de_fondo"></div>
+        <!-- Outline Fondo -->
+        <div class="outline_fondo"></div>
+        <!-- Ventana de Whatsapp-->
+        <div id="boton__whatsapp" class="cont__whatsapp">
+            <a id="boton__ir_a_whatsapp" href="https://wa.me/+5363409791" target="_blank">
+                <button>Contactar via WhatsApp</button>
+                <img src="../media/img/design/movile/contacto/whatsapp.png" alt="whatsapp">
+                <div class="whatsapp_click"></div>
+            </a>
+        </div>
+        <!-- Header -->
+        <header class="header">
+            <header class="header__container">
+                <!-- Logo del Header -->
+                <div class="header__logo">
+                    <h1>K<span>rees</span></h1>
+                </div>
+                <!-- Barra de Navegacion del Header -->
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item"><a class="header__item__a" href="../index.html"><img src="../media/img/design/universal/logotipos/casa.svg" alt="Home">Inicio</a></li>
+                        <li class="header__item"><a class="header__item__a" href="tienda/tienda.html"><img src="../media/img/design/universal/logotipos/tienda.svg" alt="Shopy">Tienda</a></li>
+                        <li class="header__item"><a class="header__item__a" href="contacto.html"><img src="../media/img/design/universal/logotipos/correo.svg" alt="Contact">Contacto</a></li>
+                        <li class="header__item"><a class="header__item__a" href="info.html"><img src="../media/img/design/universal/logotipos/info.svg" alt="Help">Info</a></li>
+                    </ul>
+                </nav>
+                <!-- Barra de Busqueda -->
+                <div class="header__barraBusqueda">
+                    <form autocomplete="off" class="header__barraBusqueda__form">
+                        <!-- Entrada de Texto -->
+                        <label for="id_texto_busqueda" class="header__barraBusqueda__input">
+                            <input onclick="redirirgir()" id="id_texto_busqueda" type="text" placeholder="Buscar...">
+                        </label>
+                        <!-- Lupa para realizar la Busqueda -->
+                        <div class="header__barraBusqueda__lupa">
+                            <button onclick="redirirgir()" type="button" class="header__barraBusqueda__lupa__container">
+                                <img src="../media/img/design/universal/logotipos/lupa.svg" alt="Lupa">
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <!-- Menu Desplegable -->
+                <div class="header__menu">
+                    <div class="header__menu__container">
+                        <button onclick="abrir_menu_desplegable()" id="id_menu__desplegable" type="button"><img src="../media/img/design/universal/logotipos/menu.svg" alt="Menu"></button>
+                    </div>
+                </div>
+            </header>
+            <!-- Header Desplegable -->
+            <div class="header__desplegable">
+                <div class="header__desplegable__container">
+                    <!-- Logo del Header Despegable -->
+                    <div class="header__des__logo">
+                        <h2>K<span>rees</span></h1>
+                    </div>
+                    <!-- Barra de Navegacion del Header Despegable -->
+                    <nav class="header__des__nav">
+                        <ul class="header__des__list">
+                            <li class="header__des__item"><a class="header__des__item__a" href="../index.html"><img src="../media/img/design/universal/logotipos/casa.svg" alt="Home">Inicio</a></li>
+                            <li class="header__des__item"><a class="header__des__item__a" href="tienda/tienda.html"><img src="../media/img/design/universal/logotipos/tienda.svg" alt="Shopy">Tienda</a></li>
+                            <li class="header__des__item"><a class="header__des__item__a" href="contacto.html"><img src="../media/img/design/universal/logotipos/correo.svg" alt="Contact">Contacto</a></li>
+                            <li class="header__des__item"><a class="header__des__item__a" href="info.html"><img src="../media/img/design/universal/logotipos/info.svg" alt="Help">Info</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Header Desplegable Footer -->
+                    <div class="header__desplegable__footer">
+                        <p>&copy;Todos los derechos recervados Krees 2025.</p>
+                    </div>
+                </div>
+                <!-- Header Desplegable Outline -->
+                <div onclick="cerrar_menu_desplegable()" class="header__desplegable__outline_back"></div>
+            </div>
+        </header>
+        <!-- Main -->
+        <main class="main">
+            <div class="main__container">
+                <!-- Section Header Info -->
+                <div class="section__header__info">
+                    <div class="section__header__info__1">
+                        <img src="../media/img/design/movile/info/fondo_acerca_de_krees_1.jpg" alt="Foto de Krees">
+                    </div>
+                    <div class="section__header__info__2">
+                        <p>La <span class="section__header__info__2__span">Sociedad Mercantil Krees S.R.L </span>es una pequeña empresa familiar, privada e independiente creada en la ciudad de Holguín en febrero de 2022.</p>
+                    </div>
+                </div>
+                <!-- Codigo Viejo de la antigua plataforma -->
+                <!-- Seccion 2 -->
+                <section class="seccion_2">
+                    <br>
+                    <div class="seccion_2__zona_A">
+                        <p>NOS DEDICAMOS A:</p>
+                    </div>
+                    <div class="seccion_2__zona_B">
+                        <br>
+                        <p><span class="seccion_2__zona_B__span">-</span>Fabricar y comercializar articulos de ferretería, mangueras hidráulicas, conexiones y válvulas.</p>
+                        <p><span class="seccion_2__zona_B__span">-</span>Prestar servicios de mantenimiento y reparación automotriz, ponchera y suminitro de aire comprimido.</p>
+                        <p><span class="seccion_2__zona_B__span">-</span>Alquilar equipos de construcción, manipulación de carga, andamios y otros implementos de la construcción.</p>
+                        <p><span class="seccion_2__zona_B__span">-</span>Comercializar partes, piezas y accesorios para vehículos automotores y motocicletas.</p>
+                        <p><span class="seccion_2__zona_B__span">-</span>Comercializar materiales de la construcción, artículos de ferretería y equipos, materiales de fontanería y calefacción, así como pinturas y productos de vidrio.</p>
+                        <br><br>
+                        <p>Radicamos en:</p>
+                        <p>Calle: Carlos Hidalgo No.53, entre 6 y 8 reparto Alcides Pino.</p>
+                        <p>Ciudad de Holguín</p>
+                        <p>Teléfono: 24441003</p>
+                        <p>Móvil: +53 63409791</p>
+                        <p>Correo: krees3433@gmail.com</p>
+                        <br><br>
+                    </div>
+                </section>
+                <section class="seccion_3">
+                    <fieldset>
+                        <legend>Preguntas Frecuentes</legend>
+                            <details>
+                                <summary>Hacen envíos a domicilio?</summary>
+                                Por el momento el servicio adomicilio no se encuentra disponible.
+                            </details>
+                            <details>
+                                <summary>Tienen garantía los productos?</summary>
+                                No todos los productos tienen garantía, para mas información comuníquese con el distribuidor.
+                            </details>
+                            <details>
+                                <summary>Cómo puedo pagar mis compras?</summary>
+                                Aceptamos pagos en enfectivo.
+                            </details>
+                            <details>
+                                <summary>A que sectores prestamos servicios.</summary>
+                                Sector privado, estatal, mipyme y cuentapropistas y más.
+                            </details>
+                            <details>
+                                <summary>Como el sector estatal puede establecer negociaciones con nuestra empresa.</summary>
+                                Atravez de un contrato con nuestra comercial. <span class="telefono_comercial">Telefono:</span>+53 63409963
+
+                            </details>
+                            <details>
+                                <summary>Para hacer alguna reclamación.</summary>
+                                Contactar a nuestra comercial. <span class="telefono_comercial">Telefono:</span>+53 63409963
+                            </details>
+                    </fieldset>
+                </section>
+            </div>
+        </main>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__container">
+                <p>&copy;Todos los derechos recervados Krees 2025. </p>
+            </div>
+        </footer>
+    </div>
+    <!-- Codigo JavaScript -->
+    <script>
+        function redirirgir(){
+            event.preventDefault();
+            window.location.href = "tienda/tienda.html"
+        }
+    </script>
+</body>
+</html>
